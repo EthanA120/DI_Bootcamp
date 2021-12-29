@@ -1,0 +1,125 @@
+section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    background-color: #139CFF;
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    font-family: Serif, serif;
+    /* transition: <property> (default all) <duration> <timing-function> (default ease) <delay> (default 0); */
+    transition: background-color .5s, color .5s linear, border-radius 2s ease-out;
+    /* try playing around with the parameters in the value and see how the transition changes! */
+}
+
+a:hover {
+    background-color: #35EC5C;
+    color: black;
+    border-radius: 30px;
+}
+
+#ballframe {
+    margin-left: 50px;
+    position: relative;
+    /*border: 2px solid black;*/
+    padding-right: 400px;
+}
+
+#ball {
+    position: relative;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 400px;
+    animation: ballshapeshift 6s infinite;
+}
+
+@keyframes ballshapeshift {
+    0%, 100% {
+        transform: translate(0,0);
+        border-radius: 100px;
+        background-color: red;
+    }
+
+    33% {
+        transform: translate(200px, -400px) scale(0.5, 0.5);
+        border-radius: 0;
+        background-color: blue;
+    }
+
+    66% {
+        transform: translate(400px, 0) rotate(720deg) scale(2,2);
+        border-radius: 0;
+        background-color: green;
+    }
+}
+
+#clock {
+    position: relative;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    border: 8px solid black;
+    border-radius: 100%;
+}
+
+#clock div {
+    position: absolute;
+    bottom: 240px;
+    left: 240px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    transform-origin: center bottom;
+}
+
+#secs {
+    width: 4px;
+    height: 45%;
+    background-color: gray;
+    animation: ClockSpin 60s infinite linear;
+}
+
+#mins{
+    width: 5px;
+    height: 45%;
+    background-color: #139CFF;
+    animation: ClockSpin 3600s infinite linear;
+}
+
+#hours{
+    width: 5px;
+    height: 30%;
+    background-color: black;
+    animation: ClockSpin 43200s infinite linear;
+}
+
+@keyframes ClockSpin {
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#Parent{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: dodgerblue;
+}
+
+#Child{
+    position: absolute;
+    left: 25%;
+    bottom: 25%;
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+}

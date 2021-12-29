@@ -1,0 +1,17 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}

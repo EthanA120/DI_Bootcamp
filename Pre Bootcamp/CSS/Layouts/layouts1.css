@@ -1,0 +1,47 @@
+body{
+    background-color: #E2AC7F;
+}
+
+#wrap{
+    background-color: #F5F5DC;
+    border: 5px dashed black;
+    font-family: Arial, serif;
+    width: 680px;
+    margin: auto;
+}
+
+h1{
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-style: italic;
+    border-bottom: 5px dashed black;
+    margin-top: 0;
+}
+
+h1 + p{
+    text-align: justify;
+    margin: auto 20px;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li:first-letter{
+    font-size: 1.5em;
+
+}
+
+li{
+    font-style: italic;
+}
+
+.copyright{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}

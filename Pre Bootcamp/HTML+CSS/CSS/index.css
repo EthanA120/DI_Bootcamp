@@ -1,0 +1,36 @@
+*{
+    font-size: 20px;
+}
+
+nav + h2{
+    text-align: center;
+}
+
+div > p{
+    font-style: oblique;
+}
+
+p{
+    line-height: 10px;
+}
+
+.RedPar{
+    color: #D46A6A;
+}
+
+#DivID{
+    color: #2A7F40;
+}
+
+.Explanation{
+    line-height: 25px;
+}
+
+div p:last-child{
+    font-weight: bold;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

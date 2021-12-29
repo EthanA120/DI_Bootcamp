@@ -1,0 +1,46 @@
+body{
+    background-color: #364371;
+}
+
+#wrap{
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    font-family: Arial, serif;
+}
+
+#nav{
+    background-color: #B0CFFF;
+    width: 25%;
+}
+
+#content {
+    position: relative;
+    background-color: #5B7FBD;
+    text-align: center;
+    width: 75%;
+}
+
+#content ul li{
+    list-style: none;
+    line-height: 1.3;
+}
+
+.copyright{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 8px auto;
+}
+
+h1 + p{
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    color: blue;
+}

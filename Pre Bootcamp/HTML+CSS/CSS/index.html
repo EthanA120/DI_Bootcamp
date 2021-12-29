@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first website!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h2>Home</h2>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="robot.html">Robot</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <p>Lets demonstrate some properties we can use to style the page:</p>
+        <p class="RedPar">.ClassName will style the class that its name come after the dot</p>
+        <p class="RedPar">All the paragraphs in "RedPar" class will turn to red.</p>
+        <div>
+            <p id="DivID">All the elements in this div section will be in the color green due to the ID style reference</p>
+            <p>And all the elements within the div section will be oblique due to the parent and child relationship</p>
+            <p class="Explanation">
+            .class - Refer to class element<br>
+            #id - Refer to id element<br>
+            * - Refer to all elements due to cascading rules<br>
+            element - Refer to reference<br>
+            element, element - Refer to more than one element<br>
+            element element - Refer to an element(2) inside an element(1)<br>
+            element > element - Refer to an element(2) that is a direct child of an element(1)<br>
+            element + element - Refer to an element(2) that comes right after an element(1)<br>
+            :hover - Valid only when cursor is hovering over the reference<br>
+            :first-child - Refer to first child<br>
+            :last-child - Refer to last child<br>
+            !important (not recommended) - Overrule the cascading<br>
+            </p>
+            <p>Visit <a href="https://flukeout.github.io/#">"CSS Diner"</a> &nbsp;for more information</p>
+        </div>
+    </section>
+</body>
+</html>

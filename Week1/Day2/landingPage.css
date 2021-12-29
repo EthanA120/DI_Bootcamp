@@ -1,0 +1,111 @@
+    body{
+        margin: 0;
+        font-family: Arial, serif;
+    }
+
+    nav{
+        background-color: #F8F9FA;;
+        display: flex;
+        height: 8vh;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #logo{
+        margin-left: 10vw;
+    }
+
+    a{
+        background-color: #007CFF;
+        padding: 0.5em;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+    }
+
+    #signIn{
+        margin-right: 10vw;
+    }
+
+    #imageFrame{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        filter: brightness(60%);
+        object-fit: cover;
+        height: 50vh;
+        object-position: center 60%;
+    }
+
+    h1{
+        position: absolute;
+        margin: 0 0;
+        text-align: center;
+        color: whitesmoke;
+        width: 600px;
+        top: 30%;
+    }
+
+    form{
+        position: absolute;
+        display: inline-block;
+        top: 60%;
+    }
+
+    input{
+        padding: 8px;
+    }
+
+    #emailField{
+        color: grey;
+        width: 300px;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+    input[name="registerButton"]{
+        min-width: 6vw;
+        color: white;
+        background-color: #007CFF;
+        border-radius: 5px;
+        border-style: none;
+    }
+
+    input[name="registerButton"]:hover{
+        color: white;
+        background-color: green;
+    }
+
+    #info{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+
+    #info div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 20%;
+    }
+
+    #info i{
+        font-size: 5em;
+        color: #007CFF;
+    }
+
+    #info h2{
+        text-align: center;
+        margin: 10px auto 0 auto;
+    }
+
+    #info p{
+        text-align: center;
+        color: gray;
+        margin: 12px auto 0 auto;
+    }

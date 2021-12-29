@@ -1,0 +1,29 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    --border: black 2px solid;
+}
+
+.redCube{
+    width: 15%;
+    margin-right: 5%;
+    height: 100px;
+    margin-bottom: 5%;
+    background-color: #EA9999;
+    border: var(--border);
+}
+
+.blueCube{
+    width: 75%;
+    height: 100px;
+    margin-bottom: 5%;
+    background-color: #9FC5F8;
+    border: var(--border);
+}
+
+.yellowCube{
+    width: 95%;
+    height: 100px;
+    background-color: #FFE599;
+    border: var(--border);
+}

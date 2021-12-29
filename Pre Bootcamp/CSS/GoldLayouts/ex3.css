@@ -1,0 +1,27 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    --border: 2px black solid;
+}
+
+.longFrame{
+    width: 100%;
+    height: 10vh;
+    margin: 3vh auto;
+    background-color: #009E0F;
+    border: var(--border);
+}
+
+img{
+    width: 31vw;
+    height: 35vh;
+    margin-bottom: 3vh;
+    border: var(--border);
+}
+
+.rectangle{
+    width: 31vw;
+    height: 35vh;
+    border: var(--border);
+}

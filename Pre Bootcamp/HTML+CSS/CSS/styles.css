@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/single/silhouette_alone_mountains_231103_1920x1080.jpg");
+    background-size: cover;
+}
+
+*{
+    font-size: 20px;
+}
+
+header h2{
+    margin: auto;
+    padding: 0 10px;
+    width: fit-content;
+    font-size: 25px;
+    text-align: center;
+}
+
+h2:hover{
+    color: #801515;
+    border: 5px groove rgba(212, 106, 106, 0.7);
+}
+
+ul{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+ul li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1px 5px;
+    position: relative;
+    background: cornflowerblue;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
