@@ -1,4 +1,9 @@
 body{
+    background-image: url("Background.jpg");  
+}
+
+#container{
+    height: 100%;
     margin: 1%;
     display: flex;
 }
@@ -14,9 +19,9 @@ p, li{
 
 header{
     width: 360px;
-    height: 100vh;
+    height: 150vh;
     font-family: 'Acme', sans-serif;
-    background-color: rgba(192, 192, 192, 0.3);
+    background-color: rgb(243, 243, 243);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +74,14 @@ i{
     -webkit-text-stroke: 0.4px white;
 }
 
+#Language{
+    align-self: flex-start;
+    width: 90%;
+    margin: 5px 0 20px 20px;
+}
+
 address a{
+    margin-top: 30px;
     font-style: normal;
     color: black;
     text-decoration: none;
@@ -81,7 +93,8 @@ address a:hover{
 }
 
 footer{
-    margin: 0 30px 30px 30px;
+    background-color: white;
+    padding: 30px 30px 30px 30px;
     font-family: 'Rambla', sans-serif;
 }
 
@@ -92,4 +105,8 @@ div + div{
 hr + h2{
     margin-top: 15px;
     font-size: 1.4em;
+}
+
+#WorkExperience p + ul{
+    margin: 2px auto 30px auto;
 }
