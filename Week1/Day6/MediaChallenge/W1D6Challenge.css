@@ -1,0 +1,163 @@
+html, body{
+     margin: 0;
+}
+
+header{
+     height: 2vh;
+     width: 100%;
+     min-width: 550px;
+     min-height: 60px;
+     background-color: #B78B68;
+     border-bottom: 1px solid black;
+}
+
+nav{
+     min-width: inherit;
+     min-width: inherit;
+     height: inherit;
+}
+
+header img{
+     float: left;
+     height: 60px;
+     margin-left: 5%;
+}
+
+nav ul{
+     float: right;
+     list-style: none;
+     margin: 0 1%;
+}
+
+nav ul li{
+     float: left;
+     font-size: 30px;
+     transform: translateY(15px);
+     font-family: 'Bangers', cursive;
+}
+
+nav a{
+     padding: 10px 30px;
+     color: white;
+     text-decoration: none;
+}
+
+nav a:hover{
+     color: black;
+     background-color: white;
+}
+
+main{
+     height: 95vh;
+     width: 100%;
+}
+
+main img{
+     float: right;
+     height: inherit;
+     width: inherit;
+}
+
+main .image{
+     float: right;
+     width: 80%;
+     height: inherit;
+}
+
+#info{
+     position: absolute;
+     float: left;
+     width: 50%;
+     height: auto;
+     top: 30%;
+     left: 25px;
+     font-size: 1.5vw;
+}
+
+#info h1{
+     margin-bottom: 0;
+     font-family: 'Bangers', cursive;
+     letter-spacing: 1px;
+     text-shadow: 0.03em 0.03em 0 silver, 0.06em 0.06em 0 #801515c0;
+}
+
+p{
+     font-family: 'Comic Neue', cursive;
+}
+
+footer{
+     height: 3vh;
+     float: left;
+     width: 100%;
+     min-height: 20px;
+     background-color: #e7ba96;
+     border-top: 1px solid black;
+}
+
+footer p{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+@media all and (max-width: 600px){
+     main #image1{
+          display: none;
+     }
+
+     main #image2{
+          object-fit: cover;
+          object-position: 50% 0;
+     }
+
+     main #image3Div{
+          display: none;
+     }
+     
+     #info{
+          font-size: 1.1em;
+     }
+}
+
+@media all and (min-width: 600px) and (max-width: 768px){
+     main #image1{
+          display: none;
+     }
+
+     main #image2Div{
+          display: none;
+     }
+     
+     main #image3{
+          object-fit: cover;
+          object-position: 50% 0;
+     }
+
+     #info{
+          width: 35%;
+          font-size: 1.1em;
+     }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+     main #image2Div{
+          display: none;
+     }
+
+     main #image3Div{
+          display: none;
+     }
+
+     #info{
+          font-size: 1.3em;
+     }
+}
+
+@media all and (min-width: 992px){
+     main #image2Div{
+          display: none;
+     }
+
+     main #image3Div{
+          display: none;
+     }
+}
