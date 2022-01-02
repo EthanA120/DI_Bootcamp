@@ -1,0 +1,140 @@
+html, body {
+    margin: 0 0;
+    font-family: Arial, serif;
+}
+
+header{
+    height: 2vh;
+    width: 100%;
+    min-width: 550px;
+    min-height: 60px;
+    background-color: #3ca3d3;
+    border-bottom: 1px solid black;
+}
+
+nav{
+    min-width: inherit;
+    min-width: inherit;
+    height: inherit;
+}
+
+header i{
+    float: left;
+    font-size: 60px;
+    margin-left: 5%;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin: 0 1%;
+}
+
+nav ul li{
+    float: left;
+    font-size: 30px;
+    transform: translateY(15px);
+    font-family: 'Bangers', cursive;
+}
+
+nav a{
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    background-color: white;
+}
+
+main{
+    height: 95vh;
+}
+
+.item{
+    float: left;
+    padding: 20px 1%;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    transition: all 0.5s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+.item h1{
+    font-size: 25px;
+    margin: 5px auto;
+}
+
+#priceTag{
+    margin: 10px auto 20px auto;
+}
+
+#priceTag span:first-child{
+    color: seagreen;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+#priceTag span:last-child{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.buyButton{
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #3ca3d3;
+    border: 2px #3ca3d3 solid;
+    border-radius: 5px;
+}
+
+footer{
+    height: 3vh;
+    float: left;
+    width: 100%;
+    min-height: 20px;
+    background-color: #8ad4f6;
+    border-top: 1px solid black;
+}
+
+footer p{
+    margin: 0;
+    font-size: 1.2em;
+}
+
+@media all and (max-width: 600px){
+    header{
+        height: 20px;
+    }
+
+    .item{
+        max-width: calc(100% - 1 * 2%);
+    }
+}
+
+@media all and (min-width: 600px) and (max-width: 768px){
+    .item{
+        max-width: calc((100% - 2 * 2%) / 2);
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px){
+    .item{
+        max-width: calc((100% - 3 * 2%) / 3)
+    }
+}
+
+@media all and (min-width: 992px){
+    .item{
+        max-width: calc((100% - 4 * 2%) / 4)
+    }
+}
