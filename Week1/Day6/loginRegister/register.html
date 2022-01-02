@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="login_register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:ital,wght@1,700&family=Knewave&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="..\ShoppingWeb\index.html" style="color: black;"><i class="fas fa-barcode"></i></a>
+        <nav>
+            <ul>
+                <li><a href="">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="..\ShoppingWeb\products.html">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Login">
+            <h1>Log In</h1>
+            <form>
+                <input class="inputBox" name="firstname" type="text" value="First name" required> <br>
+                <input class="inputBox" name="lastname" type="text" value="Last name" required> <br>
+                <input class="inputBox" name="username" type="text" value="User name" required> <br>
+                <input class="inputBox" name="email" type="email" value="Email address" required> <br>
+                <input class="inputBox" name="password" type="password" value="password" required> <br>
+                <div id="loginOpts">
+                    <span>
+                        <input name="remember_me" type="checkbox" name="rememberMe">
+                        <label for="rememberMe">Remember me</label>
+                    </span>
+                    <a href="" style="text-decoration: none;">forgot password?</a>
+                </div>
+                <input name="registerButton" type="submit" value="LOG IN">
+            </form>
+
+            <table id="hrLine">
+                <tr>
+                    <td style="width:30%"><hr></td>
+                    <td style="width:40%; vertical-align:middle; text-align: center;">Connect us with</td>
+                    <td style="width:30%"><hr></td>
+                </tr>
+            </table>
+
+            <div id="Social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            
+            <i id="copyright" class="far fa-copyright"><span> 2021</span></i>
+        </section>
+        
+        <section id="Register">
+            <i class="fas fa-sign-in-alt"></i>
+            <h1>Hello, freind!</h1>
+            <h2>Already have an account?</h2>
+            <a href="">Sign In <i class="far fa-arrow-alt-circle-right"></i></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Ethan Amar - 2021</p>
+    </footer>
+</body>
+</html>
