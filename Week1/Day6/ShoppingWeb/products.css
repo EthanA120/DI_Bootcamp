@@ -56,6 +56,7 @@ main{
     float: left;
     padding: 20px 1%;
     text-align: center;
+    position: relative;
 }
 
 img{
@@ -65,6 +66,35 @@ img{
 
 img:hover{
     transform: scale(1.05);
+}
+
+#itemOptions{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+#itemOptions a{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    font-size: 120%;
+}
+
+#itemOptions a:first-child{margin-right: 10%;}
+#itemOptions a:last-child{margin-left: 10%;}
+
+#itemOptions a:hover{
+    background-color: #3ca3d3;
+    color: white;
+}
+
+.item:hover #itemOptions{
+    visibility: visible;
 }
 
 .item h1{
@@ -95,6 +125,16 @@ img:hover{
     color: #3ca3d3;
     border: 2px #3ca3d3 solid;
     border-radius: 5px;
+}
+
+.buyButton:hover{
+    background-color: #3ca3d3;
+    color: white;
+}
+
+.buyButton:active{
+    background-color: rgba(0, 0, 0, 0);
+    color: #3ca3d3;
 }
 
 footer{
