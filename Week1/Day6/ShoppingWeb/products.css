@@ -78,6 +78,8 @@ img:hover{
 }
 
 #itemOptions a{
+    position: relative;
+    text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     background-color: white;
@@ -94,6 +96,36 @@ img:hover{
 }
 
 .item:hover #itemOptions{
+    visibility: visible;
+}
+
+#itemOptions a .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 130%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+#itemOptions a .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+#itemOptions a:hover .tooltiptext {
     visibility: visible;
 }
 
