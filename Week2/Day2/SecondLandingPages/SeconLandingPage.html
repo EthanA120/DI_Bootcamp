@@ -2,16 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Second Landing Page</title>
     <link rel="stylesheet" type="text/css" href="SeconLandingPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="" alt="">
+        <img src="assets/LoremLogo.png" alt="Logo">
         <nav>
-            
+            <ul id="Pages">
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Agencies</a></li>
+                <li><a href="">Resources</a></li>
+            </ul>
+
+            <ul id="ActiveBar">
+                <li><i class="fas fa-search"></i></li>
+                <li>(877) 893-7615</li>
+                <li><a href="">Support</a></li>
+                <li><a id="SignIn" href="">Sign In</a></li>
+            </ul>
         </nav>
     </header>
+
+    <main>
+        <div id="Intro">
+            <h1>Powerful Call Tracking for Every Business</h1>
+            <h2>14 Day Free Trail - Get Started Instantly</h2>
+            <label for="continent">Pricing for
+                <select name="continent">
+                    <option value="USCanada" selected>US & Canada</option>
+                    <option value="LatinAmerica">Latin America</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Africa">Africa</option>
+                </select>
+            </label>
+        </div>
+
+        <div id="Packages">
+            <div id="Starter" class="packageBox">
+                <div id="Popularity"><h2>MOST POPULAR</h2></div>
+                <div class="packageIntro">
+                    <i class="fas fa-user"></i>
+                    <h2>STARTER</h2>
+                    <p>Lorem ipsum</p>
+                    <div class="cost">
+                        <p>$30</p>
+                        <p>/month</p>
+                    </div>
+                    <a href="">Start 14-Day Free Trial ></a>
+                    <p>No credit card needed</p>
+                </div>
+                <div class="packageDetails">
+                    <div class="lists">
+                        <h3>Features:</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit</li>
+                            <li>Amet consectetuer adipiscing elit</li>
+                            <li>Diam nonummy nibh</li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li>Lorem ipsum dolor sit</li>
+                            <li>Amet consectetuer adipiscing elit</li>
+                            <li>Diam nonummy nibh</li>
+                            <li>Euismod tincidunt ut laoreet</li>
+                            <li>Magna aliquam erat</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Pro" class="packageBox">
+                <div class="packageIntro">
+                    <i class="fas fa-user-tie"></i>
+                    <h2>PRO</h2>
+                    <p>Lorem ipsum dolor</p>
+                    <div class="cost">
+                        <p>$130</p>
+                        <p>/month</p>
+                    </div>
+                    <a href="">Start 14-Day Free Trial ></a>
+                    <p>No credit card needed</p>
+                </div>
+                <div class="packageDetails">
+                    <div class="lists">
+                        <h3>Starter Features:</h3>
+                        <ul>
+                            <li>Epsum factorial non deposit</li>
+                            <li>Quid pro quo hic</li>
+                            <li>Olypian quarrels et</li>
+                            <li>Gorilla congolium sic ad</li>
+                            <li>Souvlaki ignitus carborundum</li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li>Li europan lingues es</li>
+                            <li>Membres del sam familie</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Elite" class="packageBox">
+                <div class="packageIntro">
+                    <i class="fas fa-users"></i>
+                    <h2>ELITE</h2>
+                    <p>Molestias repellendus sequi</p>
+                    <p>Get in Touch</p>
+                    <a href="">Contact Sales</a>
+                </div>
+                <div class="packageDetails">
+                    <div class="lists">
+                        <h3>Pro Features:</h3>
+                        <ul>
+                            <li>Minim veniam quis</li>
+                            <li>Nostrud exerci tation ullamcorper</li>
+                            <li>Lobortis nisl ut</li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li>Li europan lingues es</li>
+                            <li>Membres del sam familie</li>
+                            <li>Separat existentie es</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <a href=""><i class="far fa-comment-dots"></i> Any questions?</a>
+    </footer>
 </body>
 </html>
