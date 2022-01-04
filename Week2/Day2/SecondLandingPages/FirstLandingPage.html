@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Form LP</title>
+    <link rel="stylesheet" type="text/css" href="FirstLandingPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="head">
+            <h1>UNBURDEN YOURSELF FROM THE WEIGHT OF EMAIL OVERLOAD!</h1>
+        <a href="">LEARN HOW</a>
+        </div>
+    </header>
+
+    <div id="Background"></div>
+    
+    <main>
+        <h1>DOWNLOAD NOW</h1>
+        
+        <form action="">
+            <label for="firstname">FIRST NAME*<br>
+                <input class="inputBox" name="firstname" type="text">
+            </label>
+            <label for="lastname">LAST NAME*<br>
+                <input class="inputBox" name="lastname" type="text">
+            </label>
+            <label for="email">EMAIL(<a href="">PRIVACY POLICY</a>)*<br>
+                <input class="inputBox" name="email" type="email">
+            </label>
+            <label for="phonenumber">PHONE NUMBER*<br>
+                <input class="inputBox" name="phonenumber" type="tel">
+            </label>
+            <label for="website">WEBSITE URL*<br>
+                <input class="inputBox" name="website" type="url">
+            </label>
+            <label for="companyname">COMPANY NAME*<br>
+                <input class="inputBox" name="companyname" type="text">
+            </label>
+
+            <label class="selection" for="workersnumber">HOW MANY EMPLOYEES WORK THERE?*<br>
+                <select class="inputBox" name="workersnumber">
+                    <option value="Choose here" selected="selected" disabled hidden>- Please Select -</option>
+                    <option value="only 1 worker">only 1 worker</option>
+                    <option value="up to 10 workers">up to 10 workers</option>
+                    <option value="up to 100 workers">up to 100 workers</option>
+                    <option value="up to 1000 workers">up to 1000 workers</option>
+                    <option value="over 1000 workers">over 1000 workers</option>
+                </select>
+            </label>
+
+            <label class="selection" for="services">
+                <p>
+                    DOES YOUR COMPANY SELL ANY OF THE FOLLOWING SERVICES:<br>
+                    - WEB DESIGN<br>
+                    - ONLINE MARKETING<br>
+                    - SEO/SEM<br>
+                    - ADVERTISING AGENCY SERVICES*
+                </p>
+                <select class="inputBox" name="services">
+                    <option value="Choose here" selected="selected" disabled hidden>- Please Select -</option>
+                    <option value="Web design">only 1 worker</option>
+                    <option value="Online marketing">up to 10 workers</option>
+                    <option value="SEO/SEM">up to 100 workers</option>
+                    <option value="Advertising agency services">up to 1000 workers</option>
+                </select>
+            </label>
+
+            <label for="postsubscribe"><input type="checkbox" name="postsubscribe">SUBSCRIBE TO HUBSPOT'S MARKETING BLOG</label>
+            <label for="download"><input name="download" type="submit" value="DOWNLOAD NOW"></label>
+        </form>
+    </main>
+</body>
+</html>

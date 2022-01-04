@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+
+p, h1, h2, h3{margin: 0;}
+
+header{
+    width: 100%;
+    height: 10vh;
+    min-height: 100px;
+}
+
+#head{
+    width: 100%;
+    height: 85%;
+    min-height: 75px;
+    background-color: #4F819A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head h1{
+    color: white;
+    margin-right: 50px;
+    font-size: 18pt;
+}
+
+#head a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-color: #00A1D8;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+main::before{    
+    content: "";
+    background-image: url('assets/firstBackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+main > h1{
+    padding: 3% 0;
+    color: white;
+}
+
+form{
+    width: 60%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 6;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+label{
+    width: 100%;
+    min-width: 220px;
+    font-size: 12pt;
+    color: white;
+}
+
+.inputBox{
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    font-size: 1.2em;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 3px;
+}
+
+label[for="email"] a{
+    text-decoration: none;
+    color: #27A6D3;
+}
+
+.selection {
+    grid-column: 1 / span 3;
+}
+
+p{
+    line-height: 1.5;
+}
+
+label[for="postsubscribe"]{
+    grid-column: span 3;
+}
+
+label[for="download"]{
+    grid-row: 6;
+    grid-column: 2;
+}
+
+input[name="download"]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #00A1D8;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 25px;
+}

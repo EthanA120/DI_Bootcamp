@@ -101,6 +101,7 @@ main{
 .userDetails{
     width: 100%;
     height: 40%;
+    border-radius: 5px;
     color: white;
     text-align: center;
     position: relative;
