@@ -1,0 +1,19 @@
+.nav-link{
+    padding: 1.1rem !important;
+}
+
+.active{
+    background-color: black;
+}
+
+#SignInButton{
+    background-color: #5cb85c;
+}
+
+#Jumbotron h1{
+    font-size: 5rem;
+}
+
+#Jumbotron, #CardsRow{
+    padding: 0 5rem;
+}
