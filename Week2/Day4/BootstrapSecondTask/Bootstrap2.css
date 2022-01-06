@@ -1,0 +1,46 @@
+#Header{
+    height: 50vh;
+    position: relative;
+    z-index: 1;
+}
+
+.imageContainer{
+    content: "";
+    background-image: url("assets/Wallpaper.jpg");
+    background-size: cover;
+    background-position: 0 60%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#NavBar{
+    padding: 0 20%;
+}
+
+.nav-item{
+    color: white;
+}
+
+.jumbotron{
+    z-index: 1;
+}
+#CardsRow{
+    padding: 0 5rem;
+}
+
+.fab{
+    font-size: 5em;
+    margin: 0 auto;
+}
+
+.colorCostume{
+    color: steelblue;
+}
+
+.card-title{
+    line-height: 2.5;
+}
