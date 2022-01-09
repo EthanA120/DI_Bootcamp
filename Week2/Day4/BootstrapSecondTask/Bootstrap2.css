@@ -1,10 +1,10 @@
 #Header{
     height: 50vh;
     position: relative;
-    z-index: 1;
 }
 
 .imageContainer{
+    height: max-content;
     content: "";
     background-image: url("assets/Wallpaper.jpg");
     background-size: cover;
@@ -15,19 +15,34 @@
     right: 0;
     left: 0;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron{
+    width: 50%;
+    height: 45vh;
+    align-self: center;
 }
 
 #NavBar{
     padding: 0 20%;
 }
 
-.nav-item{
-    color: white;
+@media screen and (max-width: 992px){
+    .navbar-nav{
+        float: right;
+        width: 30%;
+        background-color: #2125298a;
+        border: 1px black solid;
+        border-radius: 5px;
+    }
+
+    .jumbotron{
+        width: 90%;
+    }
 }
 
-.jumbotron{
-    z-index: 1;
-}
 #CardsRow{
     padding: 0 5rem;
 }

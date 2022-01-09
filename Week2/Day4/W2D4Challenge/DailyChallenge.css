@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#NavList li h6, #NavList li a{
+    padding: 0;
+    margin: 0;
+    line-height: 1.7;
+}
+
+.right-border{
+    padding-left: 10px;
+    border-left: 5px solid #d8d8d8;
+}
+
+.container-xxl{
+    margin: auto 5px !important;
+}
+
+#imageContainer{
+    position: relative;
+}
+
+img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#image1{
+    background-position: center 90% !important;
+}
+
+#image2{
+    background-position: center center !important;
+}
+
+#image3{
+    object-position: center 0% !important;
+}
