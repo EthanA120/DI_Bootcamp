@@ -16,7 +16,7 @@
 */
 function wordsInTheStars() {
     
-    let userWords = "Hello, World, in, a, frame".replace(/\s/g, ""); // FIXME: prompt("Enter words seperated with ','").replace(" ", "");
+    let userWords = prompt("Enter words seperated with ','").replace(/\s/g, "");
     let userWordsArray = userWords.split(",");
 
     // Find out what is the length of the longest string in the array
