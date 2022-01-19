@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="#">
+    <!-- <link rel="stylesheet" type="text/css" href=""> -->
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    <style>
+        button, .btn{
+            padding: 0;
+            margin: 2px;
+            width: 70px;
+            height: 70px;
+        }
+
+        .action{
+            height: 50px;
+        }
+
+        .wh-costum{
+            width: 500px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container wh-costum mt-5 py-3 px-4 border rounded">
+        <form class="row">
+            <input
+              class="form-control px-2 fs-4 bg-white text-black"
+              id="Monitor"
+              type="text"
+              aria-label="disabled input example"
+              readonly
+            />
+            <label class="form-label" for="formControlDisabled"></label>
+        </form>
+
+        <div class="row">
+            <button type="button" class="action col btn btn-secondary fs-4" name="button" onclick="clearMonitor('clear');">clear</button>
+            <button type="button" class="action col btn btn-danger fs-4" name="button" onclick="clearMonitor('delete');">delete</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(1);">1</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(2);">2</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(3);">3</button>
+            <button type="button" class="operator col btn btn-primary fs-3" name="button" onclick="operator('/');">/</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(4);">4</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(5);">5</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(6);">6</button>
+            <button type="button" class="operator col btn btn-primary fs-3" name="button" onclick="operator('x');">x</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(7);">7</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(8);">8</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(9);">9</button>
+            <button type="button" class="operator col btn btn-primary fs-3" name="button" onclick="operator('-');">-</button>
+        </div>
+
+        <div class="row">
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number(0);">0</button>
+            <button type="button" class="number col btn btn-success fs-3" name="button" onclick="number('.');">.</button>
+            <button type="button" class="operator col btn btn-primary fs-3" name="button" onclick="equal();">=</button>
+            <button type="button" class="operator col btn btn-primary fs-3" name="button" onclick="operator('+');">+</button>
+        </div>
+        
+    <script src="XPGold.js" charset="utf-8"></script>
+</body>
+
+</html>
