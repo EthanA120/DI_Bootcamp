@@ -1,0 +1,40 @@
+#Ex2 {
+    margin-top: 50px;
+    background-color: lightsteelblue;
+}
+
+#Narrow {
+    height: 150px;
+    width: 150px;
+}
+
+#Wide {
+    height: 150px;
+    width: 900px;
+}
+
+.empty {
+    display: inline-block;
+
+    margin: 10px;
+    border: solid 3px salmon;
+    background: white;
+}
+
+.fill {
+    background-color: green;
+    position: relative;
+    height: 140px;
+    width: 140px;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.hold {
+    border: solid 5px #ccc;
+}
+
+.hovered {
+  border-style: dashed;
+}
