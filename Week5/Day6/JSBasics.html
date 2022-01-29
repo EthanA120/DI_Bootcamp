@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Challenge: JSBasics</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" href="">
+</head>
+
+<!-- TASK:
+
+    Write a JS program to print the letter A using stars.
+    
+    For the first 20min of the Daily Challenge, try to think about the steps and code by yourself.
+    After this period of time, if you have some issues, look for help on the internet
+
+    Hint : Use Rows and Columns
+    Check out the image in the Example.bmp file.
+-->
+
+<style>
+    #Main {
+        /* width: 300px; */
+        /* height: 500px; */
+        display: grid;
+        grid-template-rows: repeat(8, 75px);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(8, 50px);
+        grid-gap: 1px;
+    }
+
+    .row>* {
+        width: 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: red;
+        font-size: 1.5em;
+    }
+
+    .white {
+        border: 1px black solid;
+        background-color: white;
+    }
+</style>
+
+<body>
+    <div id="Main">
+        <div class="row">
+            <div class="white"></div>
+            <div class="white">0</div>
+            <div class="white">1</div>
+            <div class="white">2</div>
+            <div class="white">3</div>
+            <div class="white">4</div>
+            <div class="white">5</div>
+            <div class="white">6</div>
+        </div>
+        <div class="row">
+            <div class="white">0</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="white">1</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="white">2</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="white">3</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="white">4</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="white">5</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="row">
+            <div class="white">6</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <script>
+        let divGrid = [...document.querySelectorAll(".row > div:not(.white)")];
+        let grid = [];
+
+        for (let i = 0; i < 7; i++) {
+            grid.push([]);
+
+            for (let j = 0; j < 7; j++) {
+                grid[i][j] = divGrid[j];
+            }
+            divGrid.splice(0, 7);
+        }
+        console.log(grid);
+        
+        function AWithAsterisk(n) {
+            let halfN = Math.floor(n / 2);
+
+            // rows:
+            for (let i = 0; i < n; i++) {
+                //columns:
+                for (let j = 0; j < n; j++) {
+                    if (
+                        // first row:
+                        (i == 0 && (halfN - 1) <= j && j <= (halfN + 1)) ||
+                        // two side columns:
+                        ((j == halfN - 2 || j == halfN + 2) && i > 0) ||
+                        // middle column:
+                        (i == halfN && (halfN - 1) <= j && j <= (halfN + 1))
+                    ) {
+                        grid[i][j].textContent = "*";
+                    } else grid[i][j].textContent = "";
+                }
+            }
+        }
+
+        AWithAsterisk(7);
+
+    </script>
+</body>
+
+</html>
