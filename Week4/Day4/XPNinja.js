@@ -44,6 +44,7 @@ function hangingGame() {
             lettersGuessed.push(user2Letter);
 
         } else if (lettersGuessed.includes(user2Letter)) {
+            console.log("You've already tried this letter, try another one")
 
         } else {
             console.log("Wrong");
