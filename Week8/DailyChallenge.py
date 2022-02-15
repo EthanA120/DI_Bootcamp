@@ -62,9 +62,9 @@ class Farm:
         self.info = f"{self.name}'s Farm\n"
 
     def add_animal(self, animal, amount=1):
-        try:
-            self.farm_dict[animal] = self.farm_dict[animal] + amount
-        except KeyError:
+        if animal in self.farm_dict:
+            self.farm_dict[animal] += amount
+        else:
             self.farm_dict[animal] = amount
 
     def get_info(self):
