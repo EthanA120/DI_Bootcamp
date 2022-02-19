@@ -94,9 +94,9 @@ print(f"Organism: {d.get_item()}\n"
       f"Mutation: {d.mutate()}\n")
 
 counter = -1
-while not all(d.get_item()):
-    # print(d.get_item())
+while not d.all_ones():
+    # print("in loop:", d.get_item())
     counter += 1
-    all(d.mutate())
+    d.mutate()
 
 print(counter)
