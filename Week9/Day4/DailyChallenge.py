@@ -37,28 +37,28 @@ class Node:
             Implement a method search(value) which return the node containing this value inside the tree.
     """
 
-    def __init__(self):
+    def __init__(self, value):
+        self.value = value
         self.left = None
         self.right = None
-        self.value = None
 
     def get_left(self):
-        pass
+        return self.left
 
     def get_right(self):
-        pass
+        return self.right
 
     def set_left(self):
-        pass
+        self.left = left
 
     def set_right(self):
-        pass
+        self.right = right
 
     def set_value(self):
-        pass
+        self.value = value
 
     def get_value(self):
-        pass
+        return self.value
 
 def add_node(node):
     pass
