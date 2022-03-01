@@ -1,3 +1,5 @@
+
+
 # TASK: Air management system
 """
     Your goal is to build an airplanes' traffic management system.
@@ -57,6 +59,7 @@
     You are free to add any class/method/attribute to your code, be sure to document everything you write.
     Write a small code to test your program.
 """
+import time
 from datetime import datetime
 
 
@@ -70,59 +73,62 @@ class Company:
 
 
 class Airplane:
-    def __init__(self, name: str):
+    def __init__(self, name: str, company: Company):
         self.name = name
+        self.company = company
         self.current_location = None
-        self.company = None
-        self.next_flights = []
+        self.next_flights = {}
 
     def __repr__(self):
         return self.name
 
     def fly(self, destination):
-        pass
+        print(f"{self} is flying from {self.current_location} to {destination}")
+        self.current_location = destination
+        destination.planes.append(self)
 
     def location_on_date(self, date):
         """
             Returns where the plane will be on this date
         """
-        return self.next_flights[date]
+        if date in self.next_flights:
+            return self.next_flights[date].destination
+        else:
+            return "There is no scheduled flights on this date"
 
     def available_on_date(self, date, location):
         """
             Returns True if the plane can fly from this location on this date
             (it can fly if it is in this location on this date and if it didn't already have a flight planned).
         """
-        if date not in self.next_flights and self.current_location == location:
+        next_flights = {k: v for k, v in sorted(self.next_flights.items(), key=lambda item: item[1])}
+        next_flights_keys = list(next_flights.keys())
+        current_location = None
+
+        for i in range(1, len(next_flights_keys)-1):
+            if next_flights_keys[i-1] < date < next_flights_keys[i+1] and len(next_flights_keys) >= 2:
+                current_location = next_flights[next_flights_keys[i-1]].destination
+            elif next_flights_keys[i-1] < date:
+                current_location = next_flights[next_flights_keys[0]].destination
+            else:
+                current_location = self.current_location
+
+        if date not in next_flights and current_location == location:
             return True
         else:
             return False
 
 
-class Flight:
-    def __init__(self, identity: str, date: datetime.date):
-        self.identity = identity
-        self.date = date
-        self.plane = None
-        self.origin = None
-        self.destination = None
-
-    def __repr__(self):
-        return self.identity
-
-    def take_off(self):
-        print(f"flight number {self.identity} from {self.origin} to {self.destination} is taking off!")
-
-    def land(self):
-        print(f"flight number {self.identity} from {self.origin} to {self.destination} is landing!")
-
-
 class Airport:
-    def __init__(self, country: str):
+    def __init__(self, country: str, planes: list[Airplane]):
         self.country = country
-        self.planes = []
+        self.planes = planes
         self.scheduled_departures = []
         self.scheduled_arrivals = []
+
+        for plane in planes:
+            plane.current_location = self
+            self.scheduled_departures += plane.next_flights
 
     def __repr__(self):
         return self.country
@@ -146,12 +152,47 @@ class Airport:
                 print(departure)
 
 
+class Flight:
+    def __init__(self, identity: str, date: str, plane: Airplane, origin: Airport, destination: Airport):
+        self.identity = identity
+        self.date = datetime.strptime(date, "%d/%m/%Y")
+        self.plane = plane
+        self.origin = origin
+        self.destination = destination
+
+        plane.next_flights.update({date: self})
+
+    def __repr__(self):
+        return self.identity
+
+    def take_off(self):
+        print(f"flight number {self.identity} from {self.origin} to {self.destination} is taking off!")
+        time.sleep(5)
+        self.land()
+        self.plane.fly(self.destination)
+
+    def land(self):
+        print(f"flight number {self.identity} from {self.origin} to {self.destination} is landing!")
+        self.plane.next_flights.pop(self)
+
+
 elal = Company("Elal")
 
-F5325 = Flight("F5325", datetime.strptime("5/3/2022", "%d/%m/%Y"))
-F2553 = Flight("F2553", datetime.strptime("18/3/2022", "%d/%m/%Y"))
+B7371 = Airplane("B737-1", elal)
+B7372 = Airplane("B737-2", elal)
 
-B7371 = Airplane("B737-1")
-B7372 = Airplane("B737-2")
+israel = Airport("Israel", [B7371])
+china = Airport("China", [B7372])
+france = Airport("France", [])
 
-israel = Airport("Israel")
+F5325 = Flight("F5325", "5/3/2022", B7371, israel, france)
+F2553 = Flight("F2553", "18/3/2022", B7372, china, israel)
+
+print(f"{B7371.name} of {B7371.company} is at {B7371.current_location}, {B7371.next_flights}")
+B7371.fly(france)
+print(f"B7371 current_location: {B7371.current_location}")
+print(f"France planes: {france.planes}")
+B7371.fly(israel)
+print(f"Location on date: {B7371.location_on_date('5/3/2023')}")
+
+
