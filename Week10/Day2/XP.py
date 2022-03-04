@@ -7,15 +7,15 @@
     from module_name import function_name as fn
     import module_name as mn
 """
-# import string
+import random
+import string
+from random import randint
 # from Week7.Day2.XPGold import set_season
 # from Week7.Day2.XPGold import get_random_temp as grt
 # import datetime as dt
 
 
 # TASK: Exercise 2
-from random import randint
-
 def one_to_hundred():
     """
         Create a function that accepts a number between 1 and 100, then rolls a random number between 1 and 100,
@@ -28,9 +28,6 @@ def one_to_hundred():
 
 
 # TASK: Exercise 3
-import random
-import string
-
 def random_string():
     """
         Generate random String of length 5
