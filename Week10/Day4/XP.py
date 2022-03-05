@@ -60,7 +60,7 @@ def get_random_sentence(length):
     return " ".join(strings).lower()
 
 
-def main():
+def ex1():
     print("in this program you can use a random sentence generator."
           "You will do this by asking the user how long the sentence should be,"
           "and then the program will print the generated sentence\n")
@@ -68,13 +68,66 @@ def main():
     user_input = int(input("Enter the wanted sentence length (2-20 chars): "))
     if 2 <= user_input <= 20:
         rnd_sentence = get_random_sentence(user_input)
-        print(rnd_sentence)
+        print(rnd_sentence, "\n")
     else:
         try:
             raise ValueError
         except ValueError:
-            print("The input must be between 2 to 20 characters, Good bye!")
+            print("The input must be between 2 to 20 characters, Good bye!\n")
+
+
+# TASK: Working with JSON
+import json
+from datetime import datetime
+
+
+def ex2():
+    """
+        Instructions:
+
+        import json
+            sampleJson = '''{
+               "company":{
+                  "employee":{
+                     "name":"emma",
+                     "payable":{
+                        "salary":7000,
+                        "bonus":800
+                     }
+                  }
+               }
+            }
+    '''
+
+    1. Access the nested “salary” key from the JSON-string above.
+    2. Add a key called “birth_date” to the JSON-string at the same level as the “name” key.
+    3. Save the dictionary as JSON to a file.
+    """
+    sampleJson = """
+        { 
+           "company":{ 
+              "employee":{ 
+                 "name": "emma",
+                 "payable": { 
+                    "salary": 7000,
+                    "bonus": 800
+                 }
+              }
+           }
+        }
+    """
+    sample_json = json.loads(sampleJson)
+    salary = sample_json["company"]["employee"]["payable"]["salary"]
+    print(salary)
+
+    sample_json["company"]["employee"]["birth_date"] = "10/10/1993"
+    print(sample_json)
+    sampleJson = json.dumps(sample_json)
+
+    with open("json_file.txt", "r+") as write_file:
+        write_file.write(sampleJson)
 
 
 if __name__ == '__main__':
-    main()
+    ex1()
+    ex2()
