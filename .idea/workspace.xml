@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week10/Day5/DailyChallenge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week10/Day4/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Day4/XP.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week7\Day5\Examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.XP (1)">
+  <component name="RunManager" selected="Python.DailyChallenge (2)">
     <configuration name="DailyChallenge (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DailyChallenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DailyChallenge (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,12 +127,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week9/Day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week10/Day5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week9/Day5/DailyChallenge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week10/Day5/DailyChallenge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,19 +230,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.DailyChallenge" />
       <item itemvalue="Python.XP" />
       <item itemvalue="Python.XP#2" />
       <item itemvalue="Python.DailyChallenge (1)" />
       <item itemvalue="Python.XP (1)" />
+      <item itemvalue="Python.DailyChallenge (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DailyChallenge (2)" />
         <item itemvalue="Python.XP (1)" />
         <item itemvalue="Python.DailyChallenge (1)" />
         <item itemvalue="Python.XP#2" />
         <item itemvalue="Python.XP" />
-        <item itemvalue="Python.DailyChallenge" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,8 @@
       <workItem from="1646154391020" duration="9664000" />
       <workItem from="1646326762780" duration="10483000" />
       <workItem from="1646389352005" duration="9059000" />
-      <workItem from="1646499327935" duration="14757000" />
+      <workItem from="1646499327935" duration="15095000" />
+      <workItem from="1646584886846" duration="635000" />
     </task>
     <task id="LOCAL‎00001" summary="Final">
       <created>1643635342625</created>
@@ -501,7 +502,13 @@
       <option name="presentableId" value="LOCAL‎00036" />
       <updated>1646519997436</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL‎00037" summary="Final">
+      <created>1646521509813</created>
+      <option name="number" value="LOCAL‎00037" />
+      <option name="presentableId" value="LOCAL‎00037" />
+      <updated>1646521509813</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +545,8 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$Challenges.coverage" NAME="Challenges Coverage Results" MODIFIED="1644698542031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$XP__1_.coverage" NAME="XP (1) Coverage Results" MODIFIED="1646520866387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day4" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge__2_.coverage" NAME="DailyChallenge (2) Coverage Results" MODIFIED="1646585464816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$XP__1_.coverage" NAME="XP (1) Coverage Results" MODIFIED="1646521557777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XP_.coverage" NAME="XP+ Coverage Results" MODIFIED="1645559121516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day2" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPVaccines.coverage" NAME="MPVaccines Coverage Results" MODIFIED="1645914214482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPNinja__1_.coverage" NAME="XPNinja (1) Coverage Results" MODIFIED="1643885387044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day4" />
