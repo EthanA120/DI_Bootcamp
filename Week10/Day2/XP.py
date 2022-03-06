@@ -10,8 +10,8 @@
 import random
 import string
 from random import randint
-# from Week7.Day2.XPGold import set_season
-# from Week7.Day2.XPGold import get_random_temp as grt
+# from Week07.Day2.XPGold import set_season
+# from Week07.Day2.XPGold import get_random_temp as grt
 # import datetime as dt
 
 
