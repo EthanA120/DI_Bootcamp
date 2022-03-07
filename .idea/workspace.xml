@@ -5,212 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week11/Day2/DailyChallenge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day2/lesson1/exercises.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day2/lesson1/in-this-chapter.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day2/CatsAndLions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day2/CatsAndLions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day2/LandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day2/LandingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day2/W1D2Challenge.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day2/W1D2Challenge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day2/W1D2Challenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day2/W1D2Challenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day2/Wolverine.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day2/Wolverine.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day2/landingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day2/landingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day4/CVTask/Background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day4/CVTask/Background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day4/CVTask/CVPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day4/CVTask/CVPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day4/CVTask/CVStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day4/CVTask/CVStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day4/CVTask/ProfilePic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day4/CVTask/ProfilePic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day4/LoginPage/LoginPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day4/LoginPage/LoginPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day4/LoginPage/LoginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day4/LoginPage/LoginPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/MediaChallenge/W1D6Challenge.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/MediaChallenge/W1D6Challenge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/MediaChallenge/W1D6Challenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/MediaChallenge/W1D6Challenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/MediaChallenge/Wolverine app.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/MediaChallenge/Wolverine app.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/MediaChallenge/Wolverine.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/MediaChallenge/Wolverine.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/Images/image9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/Images/image9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/products.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/ShoppingWeb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/ShoppingWeb/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/loginRegister/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/loginRegister/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/loginRegister/login_register.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/loginRegister/login_register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week1/Day6/loginRegister/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/Day6/loginRegister/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week10/Day2/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week10/Day2/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/FirstLandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/FirstLandingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/FirstLandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/FirstLandingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/SeconLandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/SeconLandingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/SeconLandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/SeconLandingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/assets/FirstLandingPage.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/assets/FirstLandingPage.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/assets/LoremLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/assets/LoremLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/assets/SeconLandingPage.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/assets/SeconLandingPage.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/SecondLandingPages/assets/firstBackground.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/SecondLandingPages/assets/firstBackground.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/FirstChallenge/FirstChallenge.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/FirstChallenge/FirstChallenge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/FirstChallenge/FirstChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/FirstChallenge/FirstChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/SecondChallenge/SecondChallenge.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/SecondChallenge/SecondChallenge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/SecondChallenge/SecondChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/SecondChallenge/SecondChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/SecondChallenge/SecondChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/SecondChallenge/SecondChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/assets/FirstChallenge.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/assets/FirstChallenge.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/W2D2Challenge/assets/SecondChallenge.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/W2D2Challenge/assets/SecondChallenge.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/FirstLandingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/FirstLandingPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/FirstLandingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/FirstLandingPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/assets/FirstLandingPage.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/assets/FirstLandingPage.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/assets/WorldMap.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/assets/WorldMap.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/assets/user1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/assets/user1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/assets/user2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/assets/user2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day2/firstLandingPage/assets/user3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day2/FirstLandingPage/assets/user3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapFirstTask/Bootstrap1.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapFirstTask/Bootstrap1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapFirstTask/Bootstrap1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapFirstTask/Bootstrap1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapFirstTask/assets/Bootstrap1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapFirstTask/assets/Bootstrap1.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapSecondTask/Bootstrap2.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapSecondTask/Bootstrap2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapSecondTask/Bootstrap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapSecondTask/Bootstrap2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapSecondTask/assets/Bootstrap2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapSecondTask/assets/Bootstrap2.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapSecondTask/assets/LoremLogoWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapSecondTask/assets/LoremLogoWhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/BootstrapSecondTask/assets/Wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/BootstrapSecondTask/assets/Wallpaper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/W2D4Challenge/DailyChallenge.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/W2D4Challenge/DailyChallenge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/W2D4Challenge/DailyChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/W2D4Challenge/DailyChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/W2D4Challenge/assets/DailyChallenge.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/W2D4Challenge/assets/DailyChallenge.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/W2D4Challenge/assets/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/W2D4Challenge/assets/image1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/W2D4Challenge/assets/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/W2D4Challenge/assets/image2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day4/W2D4Challenge/assets/image3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day4/W2D4Challenge/assets/image3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/assets/LoremLogoWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/assets/LoremLogoWhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/assets/Portfolio.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/assets/Portfolio.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/assets/Portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/assets/Portrait.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/assets/Wallpaper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/assets/Wallpaper.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/blog/imag2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/blog/imag2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/blog/images.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/blog/images.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/blog/polit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/blog/polit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/face1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/face1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/face2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/face2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/face3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/face3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/headerback.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/headerback.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/Classic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/Classic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/electric.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/electric.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port13.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port6.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port7.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/images/portfolio/port8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/images/portfolio/port8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/PortfolioProject/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/PortfolioProject/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/W2D6Challenge/DailyChallenge.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/W2D6Challenge/DailyChallenge.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2/Day6/W2D6Challenge/DailyChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/Day6/W2D6Challenge/DailyChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day2/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day2/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day2/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day2/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day2/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day2/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day2/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day2/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day4/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day4/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day4/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day4/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day4/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day4/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day4/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day4/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day6/ChallengeGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day6/ChallengeGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day6/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day6/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day6/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day6/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day6/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day6/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day6/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day6/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3/Day6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/Day6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day2/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day2/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day2/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day2/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day2/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day2/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day2/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day2/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day3/XP/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day3/XP/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day3/XP/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day3/XP/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day3/XP/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day3/XP/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day3/XPGold/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day3/XPGold/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day3/XPGold/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day3/XPGold/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day4/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day4/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day4/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day4/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/DailyChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/DailyChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/XP.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/XP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/XPGold.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/XPGold.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/XPNinja.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/XPNinja.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week4/Day5/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/Day5/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/DailyChallenge.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/DailyChallenge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/DailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/DailyChallenge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/XP.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/XP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/XPGold.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/XPGold.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/XPGold.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/XPGold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/XPNinja.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/XPNinja.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day2/XPNinja.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day2/XPNinja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/DCLetters/Letters.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/DCLetters/Letters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/DCLetters/Letters.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/DCLetters/Letters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/DCTodoList/Example.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/DCTodoList/Example.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/DCTodoList/TodoList.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/DCTodoList/TodoList.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/DCTodoList/TodoList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/DCTodoList/TodoList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/DCTodoList/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/DCTodoList/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/MPColoringGame/ColoringGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/MPColoringGame/ColoringGame.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/MPColoringGame/ColoringGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/MPColoringGame/ColoringGame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/MPColoringGame/ColoringGame.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/MPColoringGame/ColoringGame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/XP/XP.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/XP/XP.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/XP/XP.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/XP/XP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day4/XP/XP.js" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day4/XP/XP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day6/Example.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day6/Example.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week5/Day6/JSBasics.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/Day6/JSBasics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day2/Daily Challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day2/Daily Challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day2/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day2/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day2/XPGold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day2/XPGold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day2/XPNinja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day2/XPNinja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day4/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day4/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day4/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day4/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day4/XPGold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day4/XPGold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day4/XPNinja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day4/XPNinja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day6/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day6/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day6/TCPerfectNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day6/TCPerfectNumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day6/TCReverseTheSentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day6/TCReverseTheSentence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day6/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day6/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day6/XPGold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day6/XPGold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week6/Day6/XPNinja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/Day6/XPNinja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day2/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day2/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day2/TCCountOccurence.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day2/TCCountOccurence.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day2/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day2/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day2/XPGold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day2/XPGold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day2/XPNinja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day2/XPNinja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day4/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day4/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day4/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day4/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day4/XPGold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day4/XPGold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day4/XPNinja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day4/XPNinja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day5/Challenges.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day5/Challenges.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day5/Challenges2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day5/Challenges2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day5/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day5/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day5/Examples/TicTacToe.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day5/Examples/TicTacToe.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day5/MPHangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day5/MPHangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week7/Day5/MPTicTacToe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week07/Day5/MPTicTacToe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day2/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day2/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day2/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day2/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day2/XPGold.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day2/XPGold.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day2/XPNinja.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day2/XPNinja.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day4/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day4/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day4/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day4/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day5/Daily Challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day5/Daily Challenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day5/MPRockPaperScissors/Example.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day5/MPRockPaperScissors/Example.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day5/MPRockPaperScissors/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day5/MPRockPaperScissors/game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week8/Day5/MPRockPaperScissors/rock-paper-scissors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week08/Day5/MPRockPaperScissors/rock-paper-scissors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day2/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day2/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day2/XP+.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day2/XP+.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day2/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day2/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day3/MPCharactersGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day3/MPCharactersGame.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day4/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day4/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day4/Pic1.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day4/Pic1.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day4/Pic2.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day4/Pic2.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day4/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day4/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day5/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day5/DailyChallenge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week9/Day5/MPVaccines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week09/Day5/MPVaccines.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +71,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -300,7 +99,29 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week8\Day5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.DailyChallenge">
+    <configuration name="DailyChallenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day2/DailyChallenge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MPAnagramChecker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -367,28 +188,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="anagrams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker/anagrams.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="enrich" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -434,19 +233,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.anagrams" />
       <item itemvalue="Python.MPAnagramChecker" />
       <item itemvalue="Python.anagram_checker" />
       <item itemvalue="Python.enrich" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.DailyChallenge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DailyChallenge" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.MPAnagramChecker" />
         <item itemvalue="Python.anagram_checker" />
         <item itemvalue="Python.enrich" />
-        <item itemvalue="Python.anagrams" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +288,9 @@
       <workItem from="1646389352005" duration="9059000" />
       <workItem from="1646499327935" duration="15095000" />
       <workItem from="1646584886846" duration="9883000" />
-      <workItem from="1646601877647" duration="694000" />
+      <workItem from="1646601877647" duration="1243000" />
+      <workItem from="1646685500988" duration="2512000" />
+      <workItem from="1646688790628" duration="3469000" />
     </task>
     <task id="LOCAL‎00001" summary="Final">
       <created>1643635342625</created>
@@ -737,7 +538,13 @@
       <option name="presentableId" value="LOCAL‎00041" />
       <updated>1646602370606</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL‎00042" summary="Final">
+      <created>1646603093504</created>
+      <option name="number" value="LOCAL‎00042" />
+      <option name="presentableId" value="LOCAL‎00042" />
+      <updated>1646603093504</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,6 +574,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Week5/hackathon1" />
+    </ignored-roots>
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <option name="LAST_COMMIT_MESSAGE" value="Final" />
@@ -787,7 +597,7 @@
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPTicTacToe.coverage" NAME="MPTicTacToe Coverage Results" MODIFIED="1644523599974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$test_.coverage" NAME="test  Coverage Results" MODIFIED="1643626658381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$test.coverage" NAME="test Coverage Results" MODIFIED="1645816714525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day4" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge.coverage" NAME="DailyChallenge Coverage Results" MODIFIED="1646339756455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day5" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge.coverage" NAME="DailyChallenge Coverage Results" MODIFIED="1646692144463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day2" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPNinja.coverage" NAME="XPNinja Coverage Results" MODIFIED="1644952912938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCReverseTheSentence.coverage" NAME="TCReverseTheSentence Coverage Results" MODIFIED="1644109568261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day6" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPGold__1_.coverage" NAME="XPGold (1) Coverage Results" MODIFIED="1643814397271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day4" />
