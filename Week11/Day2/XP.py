@@ -24,6 +24,5 @@ def ex2():
 
             Bonus: Add some CSS
             Hint : To add some CSS take a look at the video called Static Files in the Online Learning section.
-
     """
     pass
