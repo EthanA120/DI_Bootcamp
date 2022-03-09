@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color</title>
+    <!--<link rel="stylesheet" type="text/css" href="">-->
+</head>
+
+<style>
+    body{
+        background-color: {{background_color}};
+        font-size: 1.3em;
+    }
+
+    ul, a{
+    {% if background_color != 'yellow' %}
+        color: white;
+    {% else %}
+        color: black;
+    {% endif %}
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href='http://127.0.0.1:5000/blue'>blue</a>
+            </li>
+            <li>
+                <a href='http://127.0.0.1:5000/red'>red</a>
+            </li>
+            <li>
+                <a href='http://127.0.0.1:5000/green'>green</a>
+            </li>
+            <li>
+                <a href='http://127.0.0.1:5000/yellow'>yellow</a>
+            </li>
+        </ul>
+
+        <a href='http://127.0.0.1:5000/'>Homepage</a>
+    </nav>
+</body>
+</html>
