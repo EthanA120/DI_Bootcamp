@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/DailyChallenge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/templates/Color.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/templates/Homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/Homepage.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/detail page if the quantity is 0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/detail page if the quantity is bigger than 0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/product_db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/products page.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/XP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/templates/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +82,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week10/Day5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week11/Day4/XP/Assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -98,18 +101,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\XP\Assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week10\Day5" />
       <recent name="D:\VSCode\DI_Bootcamp\Week10\Day4" />
       <recent name="D:\VSCode\DI_Bootcamp\Week9\Day5" />
       <recent name="D:\VSCode\DI_Bootcamp\Week8" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week7\Day4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\XP\Assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\Colors" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\templates" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4" />
       <recent name="D:\VSCode\DI_Bootcamp" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week10\Day5\MPAnagramChecker" />
     </key>
   </component>
   <component name="RunManager" selected="Python.DailyChallenge (1)">
@@ -304,7 +307,7 @@
       <workItem from="1646601877647" duration="1243000" />
       <workItem from="1646685500988" duration="2512000" />
       <workItem from="1646688790628" duration="3908000" />
-      <workItem from="1646846367239" duration="4715000" />
+      <workItem from="1646846367239" duration="5751000" />
     </task>
     <task id="LOCAL‎00001" summary="Final">
       <created>1643635342625</created>
@@ -576,7 +579,13 @@
       <option name="presentableId" value="LOCAL‎00045" />
       <updated>1646761975208</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL‎00046" summary="Final">
+      <created>1646858062379</created>
+      <option name="number" value="LOCAL‎00046" />
+      <option name="presentableId" value="LOCAL‎00046" />
+      <updated>1646858062379</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
