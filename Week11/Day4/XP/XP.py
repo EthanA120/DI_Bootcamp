@@ -1,5 +1,6 @@
 # TASK: Marketplace
 from flask import Flask, render_template
+from json import load
 
 
 def main():
@@ -32,17 +33,26 @@ def main():
     """
     app = Flask(__name__)
 
+    with open("Assets/product_db.json", "r") as read_file:
+        products_list = load(read_file)
+        products_dict = {product["ProductId"]: product for product in products_list}
+
+    @app.route('/base')
+    def base():
+        return render_template('base.html', products=products_dict)
+
     @app.route('/')
+    @app.route('/homepage')
     def homepage():
         return render_template('homepage.html')
 
     @app.route('/products')
     def products():
-        return render_template('products.html')
+        return render_template('products.html', products=products_dict)
 
     @app.route('/products/<product_id>')
-    def details():
-        return render_template('details.html')
+    def details(product_id):
+        return render_template('details.html', products=products_dict, pid=product_id)
 
     app.run(debug=True, port=5000)
 
