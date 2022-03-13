@@ -2,7 +2,7 @@ header{
     height: max-content;
     min-height: 450px;
     background-image: url("../static/PokemonJumbotron.jpg");
-    background-size: cover;
+    background-size: 80%;
     background-position: center 40%;
     z-index: 0;
     display: flex;
@@ -33,7 +33,11 @@ main{
 }
 
 .card{
-    width: 23%;
+    width: 19%;
     margin: 1%;
     padding: 15px;
+}
+
+a:link{
+    text-decoration: none;
 }

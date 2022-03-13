@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <title>Pokemon</title>
     <link rel="stylesheet" type="text/css" href="../static/base.css">
 
     <!-- Font Awesome -->
@@ -31,11 +31,7 @@
                     <ul class="navbar-nav fs-4 align-items-center">
                         <li class="nav-item">
                             <a class="nav-link {% if request.url_rule.endpoint in ["/", "pokemons"] %}active{% endif %}"
-                               aria-current="page" href="/">Pokemons</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link {% if request.url_rule.endpoint == "byid" %}active{% endif %}"
-                               aria-current="page" href="/pokemon/byid">ID</a>
+                               aria-current="page" href="/">Pokemon</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link {% if request.url_rule.endpoint == "bytype" %}active{% endif %}"

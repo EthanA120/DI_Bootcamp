@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block jumbotron %}
+    <h1 class="text-white fw-normal ms-3 mt-4">{{ pokemon["name"].title() }}</h1>
+    <h4 class="text-white fw-normal ms-3">Look at that pokemon</h4>
+{% endblock %}
+
+{% block main %}
+    <div class="card w-25 m-auto">
+        <img src="{{ pokemon["img"] }}" class="card-img-top w-50 m-auto" alt="">
+        <h5 class="card-title fs-3 text-center">{{ pokemon["name"].title() }}</h5>
+        <div class="card-body">
+            <table class="table table-sm table-borderless fs-5 lh-1" style="line-height: 15px">
+                <tr>
+                    <th class="w-25">name:</th>
+                    <td class="w-75">{{ pokemon["name"] }}</td>
+                </tr>
+                <tr>
+                    <th class="w-25">id:</th>
+                    <td class="w-75">{{ pokemon["id"] }}</td>
+                </tr>
+                <tr>
+                    <th class="w-25">type:</th>
+                    <td class="w-75">{{ ", ".join(pokemon["types"]) }}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock %}

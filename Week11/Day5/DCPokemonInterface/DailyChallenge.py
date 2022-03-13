@@ -1,4 +1,6 @@
 # TASK: Pokemon Interface
+import math
+
 from flask import Flask, render_template
 import requests
 
@@ -42,19 +44,36 @@ def main():
 
     """
     count = requests.get("https://pokeapi.co/api/v2/pokemon").json()["count"]
-    pokemon_list = requests.get(f"https://pokeapi.co/api/v2/pokemon-form/?offset=0&limit=20").json()["results"]
 
     app = Flask(__name__)
 
     @app.route('/')
     @app.route('/pokemon/<int:page>')
-    def pokemon(page=0, limit=20, offset=0):
-        return render_template('pokemon.html', page=page, limit=limit, offset=offset, pokemon_list=pokemon_list)
+    def pokemon(page=0, limit=20, offset=20):
+        ceil = math.floor(count / limit)
+        if page > ceil:
+            page = ceil
+        offset = page * offset
+        pokemon_list = requests.get(f"https://pokeapi.co/api/v2/pokemon/?offset={offset}&limit=20").json()["results"]
+        for pokemon in pokemon_list:
+            info = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon["name"]}').json()
+            pokemon.update({
+                "pokemon_img": info['sprites']['front_default'],
+                "pokemon_id": info["id"],
+                "pokemon_types": [pokemon_types["type"]["name"] for pokemon_types in info["types"]]
+            })
+        return render_template('pokemon.html', page=page, limit=limit, offset=offset, pokemon_list=pokemon_list, ceil=ceil)
 
-    @app.route('/pokemon/byid')
     @app.route('/pokemon/byid/<int:pokemon_id>')
     def byid(pokemon_id=0):
-        return render_template('byid.html', pokemon_id=pokemon_id)
+        pokemon = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_id}').json()
+        pokemon.update({
+            "img": pokemon['sprites']['front_default'],
+            "name": pokemon["name"],
+            "id": pokemon["id"],
+            "types": [pokemon_types["type"]["name"] for pokemon_types in pokemon["types"]]
+        })
+        return render_template('pokemon_id.html', pokemon_id=pokemon_id, pokemon=pokemon)
 
     @app.route('/pokemon/bytype')
     @app.route('/pokemon/bytype/<pokemon_type>')
@@ -63,10 +82,10 @@ def main():
 
     @app.route('/pokemon/byname')
     @app.route('/pokemon/byname/<pokemon_name>')
-    def byname(pokemon_name="b"):
+    def byname(pokemon_name=""):
         return render_template('byname.html', pokemon_name=pokemon_name)
 
-    app.run(port=5000)
+    app.run(debug=True, port=5000)
 
 
 if __name__ == '__main__':
