@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="In progress...">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/static/homepage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week11/Day4/XP/templates/base.html" afterDir="false" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/DailyChallenge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/static/LoremLogoWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/static/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/templates/byid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/templates/byname.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/templates/bytype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/templates/pokemon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/templates/Color.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/templates/Color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/templates/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors/templates/Homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/XP/Assets/product_db.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/product_db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/XP/XP.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/XP/XP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/XP/templates/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/XP/templates/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/XP/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/XP/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day4/XP/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/XP/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,13 +87,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week11/Day4/XP/Assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Django/Jinja2 Template" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -108,21 +107,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\DCPokemonInterface\assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\XP\Assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week10\Day5" />
       <recent name="D:\VSCode\DI_Bootcamp\Week10\Day4" />
       <recent name="D:\VSCode\DI_Bootcamp\Week9\Day5" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\DCPokemonInterface\static" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\XP\Assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\Colors" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4\templates" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day4" />
-      <recent name="D:\VSCode\DI_Bootcamp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.XP (1)">
+  <component name="RunManager" selected="Python.DailyChallenge (2)">
+    <configuration name="base.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:64529/DI_Bootcamp/Week11/Day5/DCPokemonInterface/templates/base.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="DailyChallenge (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DailyChallenge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="DailyChallenge (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,12 +155,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day2/DailyChallenge.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/DailyChallenge.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,42 +257,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.DailyChallenge" />
       <item itemvalue="Python.XP" />
       <item itemvalue="Python.XP (1)" />
       <item itemvalue="Python.DailyChallenge (1)" />
+      <item itemvalue="Python.DailyChallenge (2)" />
+      <item itemvalue="JavaScript Debug.base.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DailyChallenge (2)" />
+        <item itemvalue="JavaScript Debug.base.html" />
         <item itemvalue="Python.XP (1)" />
         <item itemvalue="Python.DailyChallenge (1)" />
         <item itemvalue="Python.XP" />
-        <item itemvalue="Python.DailyChallenge" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +318,8 @@
       <workItem from="1646688790628" duration="3908000" />
       <workItem from="1646846367239" duration="5991000" />
       <workItem from="1646930633805" duration="14813000" />
-      <workItem from="1646989992206" duration="5573000" />
+      <workItem from="1646989992206" duration="7392000" />
+      <workItem from="1647108689270" duration="20159000" />
     </task>
     <task id="LOCAL‎00001" summary="Final">
       <created>1643635342625</created>
@@ -622,7 +603,13 @@
       <option name="presentableId" value="LOCAL‎00047" />
       <updated>1646859261267</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL‎00048" summary="Final">
+      <created>1646996175881</created>
+      <option name="number" value="LOCAL‎00048" />
+      <option name="presentableId" value="LOCAL‎00048" />
+      <updated>1646996175881</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,15 +643,15 @@
       <path value="$PROJECT_DIR$/Week5/hackathon1" />
     </ignored-roots>
     <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
-    <option name="LAST_COMMIT_MESSAGE" value="In progress..." />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$Challenges.coverage" NAME="Challenges Coverage Results" MODIFIED="1644698542031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge__2_.coverage" NAME="DailyChallenge (2) Coverage Results" MODIFIED="1646585464816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$XP__1_.coverage" NAME="XP (1) Coverage Results" MODIFIED="1646992228209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day4/XP" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge__2_.coverage" NAME="DailyChallenge (2) Coverage Results" MODIFIED="1647129770097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$XP__1_.coverage" NAME="XP (1) Coverage Results" MODIFIED="1647001884257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day4/XP" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPAnagramChecker.coverage" NAME="MPAnagramChecker Coverage Results" MODIFIED="1646593971237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XP_.coverage" NAME="XP+ Coverage Results" MODIFIED="1645559121516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day2" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$anagrams.coverage" NAME="anagrams Coverage Results" MODIFIED="1646588304677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker" />

@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block jumbotron %}
+    <h1 class="text-white fw-normal ms-3 mt-4">Pokemons list</h1>
+    <h4 class="text-white fw-normal ms-3">Browse for pokemon</h4>
+{% endblock %}
+
+{% block main %}
+    {% for pokemon in pokemon_list %}
+        <div class="card">
+            <img src="{{ pokemon["name"]["front_default"] }}" class="card-img-top" alt="{{ pokemon["name"]["front_default"] }}">
+            <h5 class="card-title fs-3">{{ pokemon["name"].title() }}</h5>
+            <div class="card-body">
+                <p class="card-text">{{ pokemon["name"] }}</p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
+
+{% block footer %}
+    <nav class="mt-5" aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item {% if page == 0 %} disabled {% endif %}">
+                <a class="page-link" href="/pokemon/{{ page - 1 }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            {% if page != 0 %}
+                <li class="page-item"><a class="page-link" href="/pokemon/{{ page - 1 }}">{{ page - 1 }}</a></li>
+            {% endif %}
+            <li class="page-item active" aria-current="page">
+                <a class="page-link" href="/pokemon/{{ page }}">{{ page }}</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="/pokemon/{{ page + 1 }}">{{ page + 1 }}</a></li>
+            <li class="page-item">
+                <a class="page-link" href="/pokemon/{{ page + 1 }}" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+{% endblock %}

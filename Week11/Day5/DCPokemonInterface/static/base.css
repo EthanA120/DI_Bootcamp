@@ -1,0 +1,39 @@
+header{
+    height: max-content;
+    min-height: 450px;
+    background-image: url("../static/PokemonJumbotron.jpg");
+    background-size: cover;
+    background-position: center 40%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#NavBar{
+    padding: 0 10%;
+}
+
+#Jumbotron{
+    height: 400px;
+    margin: auto 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron h1{
+    text-shadow: 2px 2px 0 rgba(256,256,256,0.9) !important;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+.card{
+    width: 23%;
+    margin: 1%;
+    padding: 15px;
+}
