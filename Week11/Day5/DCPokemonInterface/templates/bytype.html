@@ -1,1 +1,22 @@
 {% extends "base.html" %}
+
+{% block jumbotron %}
+    <h1 class="text-white fw-normal ms-5 mt-4">{{ pokemon_type }} pokemon list</h1>
+    <h4 class="text-white fw-normal ms-5">Browse for {{ pokemon_type }} pokemon</h4>
+{% endblock %}
+
+{% block main %}
+    {% for pokemon in pokemon_of_type %}
+        <div class="card">
+            <a href="/pokemon/byid/{{ pokemon["pokemon_id"] }}" class="m-auto w-50"><img src="{{ pokemon["pokemon_img"] }}" class="card-img-top" alt=""></a>
+            <a href="/pokemon/byid/{{ pokemon["pokemon_id"] }}" class="card-title fs-3 text-center">{{ pokemon["name"].title() }}</a>
+            <div class="card-body">
+                <table class="table table-sm table-borderless" style="line-height: 15px">
+                    <tr><th class="w-25">name:</th><td class="w-75">{{ pokemon["name"] }}</td></tr>
+                    <tr><th class="w-25">id:</th><td class="w-75">{{ pokemon["pokemon_id"] }}</td></tr>
+                    <tr><th class="w-25">type:</th><td class="w-75">{{ ", ".join(pokemon["pokemon_types"]) }}</td></tr>
+                </table>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

@@ -77,8 +77,16 @@ def main():
 
     @app.route('/pokemon/bytype')
     @app.route('/pokemon/bytype/<pokemon_type>')
-    def bytype(pokemon_type="natural"):
-        return render_template('bytype.html', pokemon_type=pokemon_type)
+    def bytype(pokemon_type="normal"):
+        pokemon_of_type = requests.get(f'https://pokeapi.co/api/v2/type/{pokemon_type}').json()["pokemon"]
+        for pokemon in pokemon_of_type["pokemon"]:
+            info = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon["name"]}').json()
+            pokemon.update({
+                "pokemon_img": info['sprites']['front_default'],
+                "pokemon_id": info["id"],
+                "pokemon_types": [pokemon_types["type"]["name"] for pokemon_types in info["types"]]
+            })
+        return render_template('bytype.html', pokemon_type=pokemon_type, pokemon_of_type=pokemon_of_type)
 
     @app.route('/pokemon/byname')
     @app.route('/pokemon/byname/<pokemon_name>')
