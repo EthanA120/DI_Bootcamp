@@ -1,8 +1,8 @@
 # TASK: Pokemon Interface
 import math
-
 from flask import Flask, render_template
 import requests
+from json import load
 
 
 def main():
@@ -58,9 +58,9 @@ def main():
         for pokemon in pokemon_list:
             info = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon["name"]}').json()
             pokemon.update({
-                "pokemon_img": info['sprites']['front_default'],
-                "pokemon_id": info["id"],
-                "pokemon_types": [pokemon_types["type"]["name"] for pokemon_types in info["types"]]
+                "img": info['sprites']['front_default'],
+                "id": info["id"],
+                "types": [pokemon_types["type"]["name"] for pokemon_types in info["types"]]
             })
         return render_template('pokemon.html', page=page, limit=limit, offset=offset, pokemon_list=pokemon_list, ceil=ceil)
 
@@ -68,8 +68,8 @@ def main():
     def byid(pokemon_id=0):
         pokemon = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_id}').json()
         pokemon.update({
-            "img": pokemon['sprites']['front_default'],
             "name": pokemon["name"],
+            "img": pokemon['sprites']['front_default'],
             "id": pokemon["id"],
             "types": [pokemon_types["type"]["name"] for pokemon_types in pokemon["types"]]
         })
@@ -78,15 +78,17 @@ def main():
     @app.route('/pokemon/bytype')
     @app.route('/pokemon/bytype/<pokemon_type>')
     def bytype(pokemon_type="normal"):
+        types_of_pokemon = [p_type["name"] for p_type in requests.get(f'https://pokeapi.co/api/v2/type').json()["results"]]
         pokemon_of_type = requests.get(f'https://pokeapi.co/api/v2/type/{pokemon_type}').json()["pokemon"]
-        for pokemon in pokemon_of_type["pokemon"]:
-            info = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon["name"]}').json()
-            pokemon.update({
-                "pokemon_img": info['sprites']['front_default'],
-                "pokemon_id": info["id"],
-                "pokemon_types": [pokemon_types["type"]["name"] for pokemon_types in info["types"]]
-            })
-        return render_template('bytype.html', pokemon_type=pokemon_type, pokemon_of_type=pokemon_of_type)
+        for i, pokemon in enumerate(pokemon_of_type):
+            info = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon["pokemon"]["name"]}').json()
+            pokemon_of_type[i] = {
+                "name": info["name"],
+                "img": info['sprites']['front_default'],
+                "id": info["id"],
+                "types": [pokemon_types["type"]["name"] for pokemon_types in info["types"]]
+            }
+        return render_template('bytype.html', pokemon_type=pokemon_type, types_of_pokemon=types_of_pokemon, pokemon_of_type=pokemon_of_type)
 
     @app.route('/pokemon/byname')
     @app.route('/pokemon/byname/<pokemon_name>')
