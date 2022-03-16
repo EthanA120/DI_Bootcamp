@@ -65,7 +65,7 @@ def main():
         return render_template('pokemon.html', page=page, limit=limit, offset=offset, pokemon_list=pokemon_list, ceil=ceil)
 
     @app.route('/pokemon/byid/<int:pokemon_id>')
-    def byid(pokemon_id=0):
+    def byid(pokemon_id=0, render=True):
         pokemon = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_id}').json()
         pokemon.update({
             "name": pokemon["name"],
@@ -73,7 +73,10 @@ def main():
             "id": pokemon["id"],
             "types": [pokemon_types["type"]["name"] for pokemon_types in pokemon["types"]]
         })
-        return render_template('pokemon_id.html', pokemon_id=pokemon_id, pokemon=pokemon)
+        if render:
+            return render_template('pokemon_id.html', pokemon_id=pokemon_id, pokemon=pokemon)
+        else:
+            return pokemon
 
     @app.route('/pokemon/bytype')
     @app.route('/pokemon/bytype/<pokemon_type>')
@@ -90,10 +93,10 @@ def main():
             }
         return render_template('bytype.html', pokemon_type=pokemon_type, types_of_pokemon=types_of_pokemon, pokemon_of_type=pokemon_of_type)
 
-    @app.route('/pokemon/byname')
     @app.route('/pokemon/byname/<pokemon_name>')
-    def byname(pokemon_name=""):
-        return render_template('byname.html', pokemon_name=pokemon_name)
+    def byname(pokemon_name="bulbasaur"):
+        pokemon = byid(requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon_name}').json()["id"], False)
+        return render_template('byname.html', pokemon=pokemon, pokemon_name=pokemon_name)
 
     app.run(debug=True, port=5000)
 
