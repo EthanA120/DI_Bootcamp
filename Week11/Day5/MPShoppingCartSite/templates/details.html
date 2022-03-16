@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block jumbotron %}
+    <h1 class="text-primary mb-4">{{ products[pid]["Name"] }}</h1>
+    {% if products[pid]["Status"] == "Available" %}
+        <div class="alert alert-success" role="alert">
+            This product is currently available. Order while stocks last!
+        </div>
+    {% else %}
+        <div class="alert alert-danger" role="alert">
+            Sorry this product is currently out of stock.
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            Product Details
+        </div>
+        <div class="card-body">
+            {% for key, value in products[pid].items() %}
+                <table class="w-75 table table-sm table-borderless" style="line-height: 12px">
+                    <tr>
+                        <td class="w-25">{{ key }}</td>
+                        <td>{{ value }}</td>
+                    </tr>
+                </table>
+            {% endfor %}
+
+        </div>
+    </div>
+{% endblock %}

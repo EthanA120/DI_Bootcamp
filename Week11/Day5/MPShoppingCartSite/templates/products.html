@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block jumbotron %}
+    <h1 class="text-primary mb-4">Tech Market Products</h1>
+    <h4>Browse our products</h4>
+{% endblock %}
+
+{% block content %}
+    {% for product in products.values() %}
+                <div class="card">
+                  <div class="card-header">
+                      {{ product["Name"] }}
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">{{ product["ProductId"] }}</h5>
+                    <p class="card-text">{{ product["Description"] }}</p>
+                    <a href="/products/{{ product["ProductId"] }}" class="btn btn-primary">More Details</a>
+                  </div>
+                </div>
+    {% endfor %}
+{% endblock %}
