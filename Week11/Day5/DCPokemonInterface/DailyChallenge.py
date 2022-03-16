@@ -2,7 +2,6 @@
 import math
 from flask import Flask, render_template
 import requests
-from json import load
 
 
 def main():
@@ -81,7 +80,9 @@ def main():
     @app.route('/pokemon/bytype')
     @app.route('/pokemon/bytype/<pokemon_type>')
     def bytype(pokemon_type="normal"):
-        types_of_pokemon = [p_type["name"] for p_type in requests.get(f'https://pokeapi.co/api/v2/type').json()["results"]]
+        types_of_pokemon = [
+            p_type["name"] for p_type in requests.get(f'https://pokeapi.co/api/v2/type').json()["results"]
+        ]
         pokemon_of_type = requests.get(f'https://pokeapi.co/api/v2/type/{pokemon_type}').json()["pokemon"]
         for i, pokemon in enumerate(pokemon_of_type):
             info = requests.get(f'https://pokeapi.co/api/v2/pokemon/{pokemon["pokemon"]["name"]}').json()
