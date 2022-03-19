@@ -1,4 +1,3 @@
-# TASK: Shopping cart site
 from json import load
 
 

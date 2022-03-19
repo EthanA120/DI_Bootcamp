@@ -1,5 +1,8 @@
+# TASK: Shopping cart site
+import json
+from forms import AddItem
+from flask import Flask, render_template, redirect, url_for, request, flash
 from products_data import retrieve_all_products, retrieve_requested_product
-from flask import Flask, render_template, url_for
 
 
 def main():
@@ -72,6 +75,8 @@ def main():
     """
     app = Flask(__name__)
 
+    app.config['SECRET_KEY'] = '04ac1c79311cdbe8415062b8151322d7'
+
     @app.route('/base')
     def base():
         return render_template('base.html', products=retrieve_all_products())
@@ -79,15 +84,34 @@ def main():
     @app.route('/')
     @app.route('/homepage')
     def homepage():
-        return render_template('homepage.html')
+        return render_template('homepage.html', title='Homepage')
 
-    @app.route('/products')
+    @app.route('/products', methods=["POST", "GET"])
     def products():
-        return render_template('products.html', products=retrieve_all_products())
+        form = AddItem()
+        return render_template('products.html', title='Products', products=retrieve_all_products(), form=form)
 
     @app.route('/products/<product_id>')
     def details(product_id):
-        return render_template('details.html', products=retrieve_all_products(), pid=product_id)
+        return render_template('details.html', title=product_id, product=retrieve_requested_product(product_id))
+
+    @app.route('/cart')
+    def cart(cart_item):
+        return render_template('cart.html', title='Cart', cart_item=cart_item)
+
+    @app.route('/add_product_to_cart/<product_id>')
+    def add_to_cart(product_id, qty=0):
+        with open('static/cart.json', 'w+') as w_r_file:
+            cart_list = json.load(w_r_file)
+            if product_id in cart_list.keys():
+                cart_list[product_id]["qty"] += qty
+            else:
+                cart_list[product_id] = product_id
+            json.dump(cart_list, w_r_file, indent=2, sort_keys=True)
+
+    @app.route('/delete_product_from_cart/<product_id>')
+    def delete_from_cart():
+        pass
 
     app.run(debug=True, port=5000)
 
