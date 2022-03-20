@@ -4,16 +4,144 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="In progress...">
-      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/user_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/cart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/products_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/products_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/1.15-logitech-harmony-express.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/1.15-logitech-harmony-express.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/10.Best-Webcam-Featured-Image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/10.Best-Webcam-Featured-Image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/100.58d8c5f5e4b075d06220ccaf-1280x7201mar292017172220poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/100.58d8c5f5e4b075d06220ccaf-1280x7201mar292017172220poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/101.Backyard-EOS.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/101.Backyard-EOS.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/102.camera-for-youtube.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/102.camera-for-youtube.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/103.D1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/103.D1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/104.IPCorder_NVR_with_cameras.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/104.IPCorder_NVR_with_cameras.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/105.webcams-lowres-615.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/105.webcams-lowres-615.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/106.how-to-view-multiple-security-cameras-on-a-tv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/106.how-to-view-multiple-security-cameras-on-a-tv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/107.rat-fake-webcam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/107.rat-fake-webcam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/108.turn-your-android-phone-into-universal-remote-control-with-these-cool-apps.w1456.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/108.turn-your-android-phone-into-universal-remote-control-with-these-cool-apps.w1456.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/109.unifi-protect-bundle-1-1-670x335.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/109.unifi-protect-bundle-1-1-670x335.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/11.logitech-c310-original-imaeztzqny7jh7gh.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/11.logitech-c310-original-imaeztzqny7jh7gh.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/110.panasonic_aw-ue150_best_4k_hdr_live_production_streaming_ptz_pan_tilt_zoom_remote_robotic_camera-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/110.panasonic_aw-ue150_best_4k_hdr_live_production_streaming_ptz_pan_tilt_zoom_remote_robotic_camera-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/111.Best-cameras-for-livestreaming_Thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/111.Best-cameras-for-livestreaming_Thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/112.Annke-1080p-IPCam-300x300.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/112.Annke-1080p-IPCam-300x300.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/113.dvr-iphone-remote-viewing-apps.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/113.dvr-iphone-remote-viewing-apps.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/114.5b63ba8460b2ed54a1c6a404-1280x7201aug03201835736poster.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/114.5b63ba8460b2ed54a1c6a404-1280x7201aug03201835736poster.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/115.818oBWOUB3L._SL1500_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/115.818oBWOUB3L._SL1500_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/116.51OVR1sYOlL._SX355_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/116.51OVR1sYOlL._SX355_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/117.best-tv-for-rv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/117.best-tv-for-rv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/118.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/118.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/119.14276267.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/119.14276267.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/12.5477500_sd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/12.5477500_sd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/120.iphone11.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/120.iphone11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/121.644585-fire-tv-stick-4k-with-alexa-voice-remote.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/121.644585-fire-tv-stick-4k-with-alexa-voice-remote.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/122.hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/122.hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/123.Hive-View_Best-security-cameras_trans%2B%2BqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/123.Hive-View_Best-security-cameras_trans%2B%2BqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/124.xbox-one-x-comparisons-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/124.xbox-one-x-comparisons-01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/125.e9907e47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/125.e9907e47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/126.webcams-lowres-922.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/126.webcams-lowres-922.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/127.1-96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/127.1-96.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/128.9999300000000395_sd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/128.9999300000000395_sd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/129.Sony-PlayStation-3-Eye.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/129.Sony-PlayStation-3-Eye.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/13.webcams-lowres-2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/13.webcams-lowres-2-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/130.slide-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/130.slide-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/14.Webcam000c1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/14.Webcam000c1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/15.webcams-lowres-920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/15.webcams-lowres-920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/16.Best-smart-security-cameras_review_summary_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/16.Best-smart-security-cameras_review_summary_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/17.KV02_M03A_D.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/17.KV02_M03A_D.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/18.61o1lNe0bxL._SX466_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/18.61o1lNe0bxL._SX466_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/19.1200px-Siri_Remote_and_old_Apple_Remote.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/19.1200px-Siri_Remote_and_old_Apple_Remote.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/2.Logitech-BRIO-4K-Webcam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/2.Logitech-BRIO-4K-Webcam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/20.universalremotes-top-2x1-fullres-7075-1024x512.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/20.universalremotes-top-2x1-fullres-7075-1024x512.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/21.GTHgpEHkmp5QWCpBnWTC9F-480-80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/21.GTHgpEHkmp5QWCpBnWTC9F-480-80.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/22.homepage_tc_montage_reflection_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/22.homepage_tc_montage_reflection_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/23.meetup-conference-cam.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/23.meetup-conference-cam.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/24.1200px-LG_Smart_TV_web_browser.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/24.1200px-LG_Smart_TV_web_browser.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/25.5707058_sd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/25.5707058_sd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/26.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/26.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/27.quantum-qhmpl-495lm-latest-original-imaezdfzffmecawz.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/27.quantum-qhmpl-495lm-latest-original-imaezdfzffmecawz.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/28.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/28.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/29.Install-a-Hidden-Camera-Step-21-Version-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/29.Install-a-Hidden-Camera-Step-21-Version-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/3.webcams-2x1-fullres--1024x512.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/3.webcams-2x1-fullres--1024x512.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/30.Best-cameras-for-livestreaming_Main.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/30.Best-cameras-for-livestreaming_Main.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/31.506187-toshiba-fire-tv-edition.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/31.506187-toshiba-fire-tv-edition.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/32.briopictograms.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/32.briopictograms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/33.cr-electronics-inline-tv-privacy-0218_0799757d2f95ff27d3f84980362e60b2.fit-760w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/33.cr-electronics-inline-tv-privacy-0218_0799757d2f95ff27d3f84980362e60b2.fit-760w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/34.65_x900f_cw_with_logos-100775916-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/34.65_x900f_cw_with_logos-100775916-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/35.32-lg-oled-tv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/35.32-lg-oled-tv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/36.629738-use-your-airpods-with-an-apple-tv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/36.629738-use-your-airpods-with-an-apple-tv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/37.1200px-LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/37.1200px-LEI0440_Leica_IIIf_chrom_-_Sn._580566_1951-52-M39_Blitzsynchron_front_view-6531_hf-.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/38.how-to-connect-cctv-camera-to-a-tv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/38.how-to-connect-cctv-camera-to-a-tv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/39.TTT.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/39.TTT.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/4.Microsoft-LifeCam-HD-3000-Webcam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/4.Microsoft-LifeCam-HD-3000-Webcam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/40.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/40.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/41.mh_d-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/41.mh_d-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/42.7e6e7a15-5004-4421-b4c3-29ad9a18a961.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/42.7e6e7a15-5004-4421-b4c3-29ad9a18a961.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/43.600964-the-best-tvs-for-gaming.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/43.600964-the-best-tvs-for-gaming.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/44.qn75q90rafxza_004_l-perspective_silver_ns_02-100808696-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/44.qn75q90rafxza_004_l-perspective_silver_ns_02-100808696-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/45.61JswtCfvuL._SR500,500_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/45.61JswtCfvuL._SR500,500_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/46.security-camera-roundup-pic-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/46.security-camera-roundup-pic-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/47.610230-24-hidden-roku-tips-for-streaming-success.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/47.610230-24-hidden-roku-tips-for-streaming-success.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/48.at8fquefj7ocziavaxzr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/48.at8fquefj7ocziavaxzr.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/49.GettyImages-95467436-5bc4c9d74cedfd005147ec2c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/49.GettyImages-95467436-5bc4c9d74cedfd005147ec2c.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/5.Logitech-Conference-Cam-BCC950.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/5.Logitech-Conference-Cam-BCC950.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/50.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/50.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/51.Adobe-Lightroom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/51.Adobe-Lightroom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/52.Logitech-HD-Pro-Webcam-C920.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/52.Logitech-HD-Pro-Webcam-C920.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/53.logitech-harmony-650-crop2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/53.logitech-harmony-650-crop2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/54.room-2559790_960_720-900x450.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/54.room-2559790_960_720-900x450.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/55.Best-Wireless-Computer-Monitor-and-TV-Setups.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/55.Best-Wireless-Computer-Monitor-and-TV-Setups.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/56.mjsxj02cm-xiaomi-original-imaf9h23qvtypbez.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/56.mjsxj02cm-xiaomi-original-imaf9h23qvtypbez.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/57.top_features_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/57.top_features_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/58.23xp-zuckerberg-articleLarge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/58.23xp-zuckerberg-articleLarge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/59.Samsung-Remote-Access_main_F.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/59.Samsung-Remote-Access_main_F.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/6.81ofIx%2BQNeL._SL1500_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/6.81ofIx%2BQNeL._SL1500_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/60.rocosoft-ptzjoy-pro-ptz-controller-pc-800x544.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/60.rocosoft-ptzjoy-pro-ptz-controller-pc-800x544.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/61.3a7c7f43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/61.3a7c7f43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/62.Lorex_digital_wireless_camera.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/62.Lorex_digital_wireless_camera.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/63.61EcOnxm9jL._SY450_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/63.61EcOnxm9jL._SY450_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/64.canary-all-in-one-lifestyle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/64.canary-all-in-one-lifestyle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/65.wireless-hdmi-video-transmitter-2x1-lowres-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/65.wireless-hdmi-video-transmitter-2x1-lowres-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/66.large06-1-1024x680.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/66.large06-1-1024x680.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/67.echoshowhero-100770451-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/67.echoshowhero-100770451-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/68.Fire-TV-Security-Camera-Feed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/68.Fire-TV-Security-Camera-Feed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/69.5947832_sd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/69.5947832_sd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/7.712xpaJPT6L._SY355_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/7.712xpaJPT6L._SY355_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/70.lg-c8-oled-tv_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/70.lg-c8-oled-tv_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/71.pc-webcam-vector-300x253.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/71.pc-webcam-vector-300x253.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/72.528654-wyze-cam-pan.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/72.528654-wyze-cam-pan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/73.Amazon-Fire-TV-vs-Chromecast_thumb1200_4-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/73.Amazon-Fire-TV-vs-Chromecast_thumb1200_4-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/74.05Samsung_F5500_35757117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/74.05Samsung_F5500_35757117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/75.616Nh%2BR-EnL._SX355_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/75.616Nh%2BR-EnL._SX355_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/76.MiZuhWRUoNXZRQcnZjEJbd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/76.MiZuhWRUoNXZRQcnZjEJbd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/77.Top-10-Best-Selling-IP-Cameras-in-India-.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/77.Top-10-Best-Selling-IP-Cameras-in-India-.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/78.thum_a-quick-how-to-on-connecting-devices-to-qled-tv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/78.thum_a-quick-how-to-on-connecting-devices-to-qled-tv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/79.What-is-the-Best-Android-TV-Box-USB-Camera-CAM.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/79.What-is-the-Best-Android-TV-Box-USB-Camera-CAM.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/8.434376-amazon-fire-tv-stick-with-alexa-remote.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/8.434376-amazon-fire-tv-stick-with-alexa-remote.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/80.best-vlogging-cameras.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/80.best-vlogging-cameras.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/81.razer-kiyo-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/81.razer-kiyo-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/82.ps4-streaming-thumb-510x0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/82.ps4-streaming-thumb-510x0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/83.setienne_180717_2745_0005.0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/83.setienne_180717_2745_0005.0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/84.Video-For-you_0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/84.Video-For-you_0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/85.best-smart-home-gadgets-indybest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/85.best-smart-home-gadgets-indybest.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/86.maxresdefault.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/86.maxresdefault.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/87.e0ded23e.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/87.e0ded23e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/88.jbareham_180726_2773_0025_03.0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/88.jbareham_180726_2773_0025_03.0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/89.6301667_sd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/89.6301667_sd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/9.wifisecuritycameras-2x1-0176-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/9.wifisecuritycameras-2x1-0176-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/90.c310-hd-webcam-refresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/90.c310-hd-webcam-refresh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/91.logi-meetup-tv-mount.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/91.logi-meetup-tv-mount.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/92.Logitech-HD-Laptop-Webcam-C615.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/92.Logitech-HD-Laptop-Webcam-C615.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/93.best_4k_TVs_summary_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/93.best_4k_TVs_summary_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwfSVWeZ_vEN7c6bHu2jJnT8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/94.518286-how-to-take-a-screenshot-on-any-device.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/94.518286-how-to-take-a-screenshot-on-any-device.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/95.61acy0ewBlL._SR500,500_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/95.61acy0ewBlL._SR500,500_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/96.05Samsung_F5500_35757117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/96.05Samsung_F5500_35757117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/97.briopictograms.png" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/97.briopictograms.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/98.turn-your-android-phone-into-universal-remote-control-with-these-cool-apps.w1456.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/98.turn-your-android-phone-into-universal-remote-control-with-these-cool-apps.w1456.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/99.v380_camera_720p_01_700x700.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/99.v380_camera_720p_01_700x700.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/images/img.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/img/img.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/products.html" afterDir="false" />
     </list>
@@ -122,26 +250,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
-    <configuration name="DailyChallenge (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/DailyChallenge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55643/DI_Bootcamp/Week11/Day5/MPShoppingCartSite/templates/cart.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="XP (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -256,18 +365,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.XP (1)" />
-      <item itemvalue="Python.DailyChallenge (2)" />
       <item itemvalue="Python.products_data" />
       <item itemvalue="Python.app" />
       <item itemvalue="Python.products_data (1)" />
+      <item itemvalue="JavaScript Debug.cart.html" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="JavaScript Debug.cart.html" />
         <item itemvalue="Python.products_data (1)" />
         <item itemvalue="Python.XP (1)" />
         <item itemvalue="Python.products_data" />
-        <item itemvalue="Python.DailyChallenge (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -322,61 +431,8 @@
       <workItem from="1647359692744" duration="13299000" />
       <workItem from="1647531175746" duration="13451000" />
       <workItem from="1647611246518" duration="1193000" />
-      <workItem from="1647718698370" duration="8426000" />
-    </task>
-    <task id="LOCAL‎00007" summary="Final">
-      <created>1644425495192</created>
-      <option name="number" value="LOCAL‎00007" />
-      <option name="presentableId" value="LOCAL‎00007" />
-      <updated>1644425495192</updated>
-    </task>
-    <task id="LOCAL‎00008" summary="Final">
-      <created>1644523921602</created>
-      <option name="number" value="LOCAL‎00008" />
-      <option name="presentableId" value="LOCAL‎00008" />
-      <updated>1644523921602</updated>
-    </task>
-    <task id="LOCAL‎00009" summary="Final">
-      <created>1644525540086</created>
-      <option name="number" value="LOCAL‎00009" />
-      <option name="presentableId" value="LOCAL‎00009" />
-      <updated>1644525540086</updated>
-    </task>
-    <task id="LOCAL‎00010" summary="Final">
-      <created>1644698580286</created>
-      <option name="number" value="LOCAL‎00010" />
-      <option name="presentableId" value="LOCAL‎00010" />
-      <updated>1644698580286</updated>
-    </task>
-    <task id="LOCAL‎00011" summary="Final">
-      <created>1644865605247</created>
-      <option name="number" value="LOCAL‎00011" />
-      <option name="presentableId" value="LOCAL‎00011" />
-      <updated>1644865605247</updated>
-    </task>
-    <task id="LOCAL‎00012" summary="Final">
-      <created>1644871235034</created>
-      <option name="number" value="LOCAL‎00012" />
-      <option name="presentableId" value="LOCAL‎00012" />
-      <updated>1644871235034</updated>
-    </task>
-    <task id="LOCAL‎00013" summary="Final">
-      <created>1644942654400</created>
-      <option name="number" value="LOCAL‎00013" />
-      <option name="presentableId" value="LOCAL‎00013" />
-      <updated>1644942654400</updated>
-    </task>
-    <task id="LOCAL‎00014" summary="Final">
-      <created>1644952930863</created>
-      <option name="number" value="LOCAL‎00014" />
-      <option name="presentableId" value="LOCAL‎00014" />
-      <updated>1644952930863</updated>
-    </task>
-    <task id="LOCAL‎00015" summary="Final">
-      <created>1644952970984</created>
-      <option name="number" value="LOCAL‎00015" />
-      <option name="presentableId" value="LOCAL‎00015" />
-      <updated>1644952970984</updated>
+      <workItem from="1647718698370" duration="9090000" />
+      <workItem from="1647792202258" duration="13226000" />
     </task>
     <task id="LOCAL‎00016" summary="Final">
       <created>1645293651595</created>
@@ -618,7 +674,61 @@
       <option name="presentableId" value="LOCAL‎00055" />
       <updated>1647469996877</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL‎00056" summary="In progress...">
+      <created>1647729127271</created>
+      <option name="number" value="LOCAL‎00056" />
+      <option name="presentableId" value="LOCAL‎00056" />
+      <updated>1647729127271</updated>
+    </task>
+    <task id="LOCAL‎00057" summary="In progress...">
+      <created>1647806269228</created>
+      <option name="number" value="LOCAL‎00057" />
+      <option name="presentableId" value="LOCAL‎00057" />
+      <updated>1647806269228</updated>
+    </task>
+    <task id="LOCAL‎00058" summary="In progress...">
+      <created>1647806978238</created>
+      <option name="number" value="LOCAL‎00058" />
+      <option name="presentableId" value="LOCAL‎00058" />
+      <updated>1647806978238</updated>
+    </task>
+    <task id="LOCAL‎00059" summary="Final">
+      <created>1647807054951</created>
+      <option name="number" value="LOCAL‎00059" />
+      <option name="presentableId" value="LOCAL‎00059" />
+      <updated>1647807054951</updated>
+    </task>
+    <task id="LOCAL‎00060" summary="Final">
+      <created>1647807095890</created>
+      <option name="number" value="LOCAL‎00060" />
+      <option name="presentableId" value="LOCAL‎00060" />
+      <updated>1647807095890</updated>
+    </task>
+    <task id="LOCAL‎00061" summary="Final">
+      <created>1647807248317</created>
+      <option name="number" value="LOCAL‎00061" />
+      <option name="presentableId" value="LOCAL‎00061" />
+      <updated>1647807248317</updated>
+    </task>
+    <task id="LOCAL‎00062" summary="Final">
+      <created>1647807288384</created>
+      <option name="number" value="LOCAL‎00062" />
+      <option name="presentableId" value="LOCAL‎00062" />
+      <updated>1647807288384</updated>
+    </task>
+    <task id="LOCAL‎00063" summary="Final">
+      <created>1647807304187</created>
+      <option name="number" value="LOCAL‎00063" />
+      <option name="presentableId" value="LOCAL‎00063" />
+      <updated>1647807304187</updated>
+    </task>
+    <task id="LOCAL‎00064" summary="Final">
+      <created>1647807329403</created>
+      <option name="number" value="LOCAL‎00064" />
+      <option name="presentableId" value="LOCAL‎00064" />
+      <updated>1647807329403</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,10 +761,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Week5/hackathon1" />
     </ignored-roots>
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
-    <option name="LAST_COMMIT_MESSAGE" value="In progress..." />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />
@@ -667,7 +777,7 @@
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPVaccines.coverage" NAME="MPVaccines Coverage Results" MODIFIED="1645914214482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPNinja__1_.coverage" NAME="XPNinja (1) Coverage Results" MODIFIED="1643885387044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$game.coverage" NAME="game Coverage Results" MODIFIED="1645302347418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8/Day5/MPRockPaperScissors" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$app.coverage" NAME="app Coverage Results" MODIFIED="1647728447824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$app.coverage" NAME="app Coverage Results" MODIFIED="1647806457096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$enrich.coverage" NAME="enrich Coverage Results" MODIFIED="1646592652288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$anagram_checker.coverage" NAME="anagram_checker Coverage Results" MODIFIED="1646593248043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPTicTacToe.coverage" NAME="MPTicTacToe Coverage Results" MODIFIED="1644523599974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />

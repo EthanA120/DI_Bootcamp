@@ -18,6 +18,7 @@
         <div class="card-header">
             Product Details
         </div>
+        <img src="../static/{{ product['ProductPicUrl'] }}" class="card-img-top w-25" alt="...">
         <div class="card-body">
             {% for key, value in product.items() %}
                 <table class="w-75 table table-sm table-borderless" style="line-height: 12px">
@@ -28,6 +29,10 @@
                 </table>
             {% endfor %}
 
+            <form method="POST" action="" class="container ps-0 ms-0 gap-3">
+                {{ form.hidden_tag() }}
+                {{ form.add_to_cart(class="btn btn-primary") }}
+            </form>
         </div>
     </div>
 {% endblock %}

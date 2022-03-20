@@ -1,7 +1,8 @@
 # TASK: Shopping cart site
+import os
 import json
-from forms import AddItem
-from flask import Flask, render_template, redirect, url_for, request, flash
+from forms import CartItems
+from flask import Flask, render_template, redirect, url_for
 from products_data import retrieve_all_products, retrieve_requested_product
 
 
@@ -11,7 +12,7 @@ def main():
             - Today we are going to be creating a website that allows the users to add and delete items from their shopping cart.
             - In the assets below, you can find a json file containing all the products you will be using for your store
             - Don’t forget to download the img zip found below in the assets.
-                (these images should be placed in you static folder)
+                (these img should be placed in you static folder)
             - As a reminder, look at the assets below for the Lesson on Python File I/O
                 (reading and writing from a json file)
 
@@ -86,32 +87,60 @@ def main():
     def homepage():
         return render_template('homepage.html', title='Homepage')
 
-    @app.route('/products', methods=["POST", "GET"])
+    @app.route('/products')
     def products():
-        form = AddItem()
-        return render_template('products.html', title='Products', products=retrieve_all_products(), form=form)
+        return render_template('products.html', title='Products', products=retrieve_all_products())
 
-    @app.route('/products/<product_id>')
+    @app.route('/products/<product_id>', methods=["POST", "GET"])
     def details(product_id):
-        return render_template('details.html', title=product_id, product=retrieve_requested_product(product_id))
+        form = CartItems()
+        if form.validate_on_submit():
+            return redirect(url_for('add_to_cart', product_id=product_id))
+        return render_template('details.html', title=product_id, product=retrieve_requested_product(product_id), form=form)
 
-    @app.route('/cart')
-    def cart(cart_item):
-        return render_template('cart.html', title='Cart', cart_item=cart_item)
+    @app.route('/cart', methods=["POST", "GET"])
+    def cart():
+        form = CartItems()
+        with open('static/cart.json', 'r') as r_file:
+            cart_list = json.load(r_file)
+        return render_template('cart.html', title='Cart', cart_list=cart_list, form=form)
 
-    @app.route('/add_product_to_cart/<product_id>')
-    def add_to_cart(product_id, qty=0):
-        with open('static/cart.json', 'w+') as w_r_file:
-            cart_list = json.load(w_r_file)
-            if product_id in cart_list.keys():
-                cart_list[product_id]["qty"] += qty
+    @app.route('/add_product_to_cart/<product_id>', methods=["POST", "GET"])
+    def add_to_cart(product_id):
+        product = retrieve_requested_product(product_id)
+        with open('static/cart.json', 'r') as r_file:
+            if os.stat('static/cart.json').st_size == 0:
+                cart_list = {}
             else:
-                cart_list[product_id] = product_id
-            json.dump(cart_list, w_r_file, indent=2, sort_keys=True)
+                cart_list = json.load(r_file)
 
-    @app.route('/delete_product_from_cart/<product_id>')
-    def delete_from_cart():
-        pass
+            if product_id in cart_list.keys():
+                cart_list[product_id]["Cart"] += 1
+            else:
+                cart_list.update({product_id: product})
+                cart_list[product_id]["Cart"] = 1
+
+            with open('static/cart.json', 'w') as w_file:
+                json.dump(cart_list, w_file, indent=2, sort_keys=True)
+        return redirect(url_for('cart'))
+
+    @app.route('/delete_product_from_cart/<product_id>', methods=["POST", "GET"])
+    def delete_from_cart(product_id):
+        with open('static/cart.json', 'r') as r_file:
+            if os.stat('static/cart.json').st_size == 0:
+                cart_list = {}
+            else:
+                cart_list = json.load(r_file)
+
+            if product_id in cart_list.keys() and cart_list[product_id]["Cart"] > 1:
+                cart_list[product_id]["Cart"] -= 1
+            else:
+                print(product_id)
+                cart_list.pop(product_id)
+
+            with open('static/cart.json', 'w') as w_file:
+                json.dump(cart_list, w_file, indent=2, sort_keys=True)
+        return redirect(url_for('cart'))
 
     app.run(debug=True, port=5000)
 

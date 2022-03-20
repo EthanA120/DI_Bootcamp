@@ -2,20 +2,25 @@
 
 {% block jumbotron %}
     <h1 class="text-primary mb-4">Your Cart</h1>
-    <h4>Complete your purchase</h4>
+    <h4>Things you want to buy</h4>
 {% endblock %}
 
 {% block content %}
-    {% for product in products %}
-                <div class="card">
-                  <div class="card-header">
-                      {{ product["Name"] }}
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">{{ product["ProductId"] }}</h5>
-                    <p class="card-text">{{ product["Description"] }}</p>
-                    <a href="/products/{{ product["ProductId"] }}" class="btn btn-primary">More Details</a>
-                  </div>
-                </div>
+    {% for product in cart_list.values() %}
+        <div class="card">
+            <div class="card-header">
+                {{ product["Name"] }}
+            </div>
+            <img src="../static/{{ product['ProductPicUrl'] }}" class="card-img-top w-25" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ product["ProductId"] }}</h5>
+                <p class="card-text">{{ product["Description"] }}</p>
+                <p class="card-text fs-5 text-success">Quantity ordered: {{ product["Cart"] }}</p>
+            </div>
+            <form method="POST" action="{{ url_for('delete_from_cart', product_id=product['ProductId']) }}" class="container ps-0 ms-0 gap-3">
+                {{ form.hidden_tag() }}
+                {{ form.remove_from_cart(class="btn btn-primary") }}
+            </form>
+        </div>
     {% endfor %}
 {% endblock %}

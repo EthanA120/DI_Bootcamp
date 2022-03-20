@@ -1,8 +1,9 @@
 from flask_wtf import FlaskForm
-from wtforms import validators, IntegerField, SubmitField
+from wtforms import SubmitField
 
 
-class AddItem(FlaskForm):
-    quantity = IntegerField('Quantity', validators=[validators.DataRequired()])
-    submit = SubmitField('Add')
+class CartItems(FlaskForm):
+    add_to_cart = SubmitField('Add to cart')
+    remove_from_cart = SubmitField('Remove From Cart')
+
 
