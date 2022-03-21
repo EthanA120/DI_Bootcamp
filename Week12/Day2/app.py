@@ -24,7 +24,7 @@ def main():
 
     @app.route('/base')
     def base():
-        return render_template('base.html', products=retrieve_all_products())
+        return render_template('base.html')
 
     app.run(debug=True, port=5000)
 
