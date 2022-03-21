@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="In progress...">
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/products_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/static/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/templates/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day4/XP/Assets/product_db.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day4/XP/Assets/product_db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/DailyChallenge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/static/names.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -81,7 +93,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -110,7 +122,29 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.app">
-    <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:55643/DI_Bootcamp/Week11/Day5/MPShoppingCartSite/templates/cart.html" useBuiltInWebServerPort="true">
+    <configuration name="pokemon.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:53413/DI_Bootcamp/Week11/Day5/DCPokemonInterface/templates/pokemon.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="DailyChallenge (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day5/DCPokemonInterface/DailyChallenge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="XP (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -179,28 +213,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="products_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/products_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="products_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,19 +236,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.cart.html" />
+      <item itemvalue="JavaScript Debug.pokemon.html" />
       <item itemvalue="Python.XP (1)" />
+      <item itemvalue="Python.DailyChallenge (2)" />
       <item itemvalue="Python.products_data" />
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.products_data (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
-        <item itemvalue="JavaScript Debug.cart.html" />
-        <item itemvalue="Python.products_data (1)" />
         <item itemvalue="Python.XP (1)" />
         <item itemvalue="Python.products_data" />
+        <item itemvalue="Python.DailyChallenge (2)" />
+        <item itemvalue="JavaScript Debug.pokemon.html" />
       </list>
     </recent_temporary>
   </component>
@@ -289,11 +301,84 @@
       <workItem from="1647187085616" duration="11818000" />
       <workItem from="1647288471145" duration="3224000" />
       <workItem from="1647359692744" duration="13299000" />
-      <workItem from="1647531175746" duration="13451000" />
-      <workItem from="1647611246518" duration="1193000" />
-      <workItem from="1647718698370" duration="9090000" />
-      <workItem from="1647792202258" duration="13226000" />
-      <workItem from="1647809493134" duration="633000" />
+    </task>
+    <task id="LOCAL‎00004" summary="Final">
+      <created>1644109673065</created>
+      <option name="number" value="LOCAL‎00004" />
+      <option name="presentableId" value="LOCAL‎00004" />
+      <updated>1644109673065</updated>
+    </task>
+    <task id="LOCAL‎00005" summary="Final">
+      <created>1644246312491</created>
+      <option name="number" value="LOCAL‎00005" />
+      <option name="presentableId" value="LOCAL‎00005" />
+      <updated>1644246312491</updated>
+    </task>
+    <task id="LOCAL‎00006" summary="Final">
+      <created>1644260684051</created>
+      <option name="number" value="LOCAL‎00006" />
+      <option name="presentableId" value="LOCAL‎00006" />
+      <updated>1644260684051</updated>
+    </task>
+    <task id="LOCAL‎00007" summary="Final">
+      <created>1644425495192</created>
+      <option name="number" value="LOCAL‎00007" />
+      <option name="presentableId" value="LOCAL‎00007" />
+      <updated>1644425495192</updated>
+    </task>
+    <task id="LOCAL‎00008" summary="Final">
+      <created>1644523921602</created>
+      <option name="number" value="LOCAL‎00008" />
+      <option name="presentableId" value="LOCAL‎00008" />
+      <updated>1644523921602</updated>
+    </task>
+    <task id="LOCAL‎00009" summary="Final">
+      <created>1644525540086</created>
+      <option name="number" value="LOCAL‎00009" />
+      <option name="presentableId" value="LOCAL‎00009" />
+      <updated>1644525540086</updated>
+    </task>
+    <task id="LOCAL‎00010" summary="Final">
+      <created>1644698580286</created>
+      <option name="number" value="LOCAL‎00010" />
+      <option name="presentableId" value="LOCAL‎00010" />
+      <updated>1644698580286</updated>
+    </task>
+    <task id="LOCAL‎00011" summary="Final">
+      <created>1644865605247</created>
+      <option name="number" value="LOCAL‎00011" />
+      <option name="presentableId" value="LOCAL‎00011" />
+      <updated>1644865605247</updated>
+    </task>
+    <task id="LOCAL‎00012" summary="Final">
+      <created>1644871235034</created>
+      <option name="number" value="LOCAL‎00012" />
+      <option name="presentableId" value="LOCAL‎00012" />
+      <updated>1644871235034</updated>
+    </task>
+    <task id="LOCAL‎00013" summary="Final">
+      <created>1644942654400</created>
+      <option name="number" value="LOCAL‎00013" />
+      <option name="presentableId" value="LOCAL‎00013" />
+      <updated>1644942654400</updated>
+    </task>
+    <task id="LOCAL‎00014" summary="Final">
+      <created>1644952930863</created>
+      <option name="number" value="LOCAL‎00014" />
+      <option name="presentableId" value="LOCAL‎00014" />
+      <updated>1644952930863</updated>
+    </task>
+    <task id="LOCAL‎00015" summary="Final">
+      <created>1644952970984</created>
+      <option name="number" value="LOCAL‎00015" />
+      <option name="presentableId" value="LOCAL‎00015" />
+      <updated>1644952970984</updated>
+    </task>
+    <task id="LOCAL‎00016" summary="Final">
+      <created>1645293651595</created>
+      <option name="number" value="LOCAL‎00016" />
+      <option name="presentableId" value="LOCAL‎00016" />
+      <updated>1645293651595</updated>
     </task>
     <task id="LOCAL‎00017" summary="Final">
       <created>1645293893991</created>
@@ -511,85 +596,7 @@
       <option name="presentableId" value="LOCAL‎00052" />
       <updated>1647361025355</updated>
     </task>
-    <task id="LOCAL‎00053" summary="In progress...">
-      <created>1647469789243</created>
-      <option name="number" value="LOCAL‎00053" />
-      <option name="presentableId" value="LOCAL‎00053" />
-      <updated>1647469789243</updated>
-    </task>
-    <task id="LOCAL‎00054" summary="In progress...">
-      <created>1647469933852</created>
-      <option name="number" value="LOCAL‎00054" />
-      <option name="presentableId" value="LOCAL‎00054" />
-      <updated>1647469933852</updated>
-    </task>
-    <task id="LOCAL‎00055" summary="In progress...">
-      <created>1647469996877</created>
-      <option name="number" value="LOCAL‎00055" />
-      <option name="presentableId" value="LOCAL‎00055" />
-      <updated>1647469996877</updated>
-    </task>
-    <task id="LOCAL‎00056" summary="In progress...">
-      <created>1647729127271</created>
-      <option name="number" value="LOCAL‎00056" />
-      <option name="presentableId" value="LOCAL‎00056" />
-      <updated>1647729127271</updated>
-    </task>
-    <task id="LOCAL‎00057" summary="In progress...">
-      <created>1647806269228</created>
-      <option name="number" value="LOCAL‎00057" />
-      <option name="presentableId" value="LOCAL‎00057" />
-      <updated>1647806269228</updated>
-    </task>
-    <task id="LOCAL‎00058" summary="In progress...">
-      <created>1647806978238</created>
-      <option name="number" value="LOCAL‎00058" />
-      <option name="presentableId" value="LOCAL‎00058" />
-      <updated>1647806978238</updated>
-    </task>
-    <task id="LOCAL‎00059" summary="Final">
-      <created>1647807054951</created>
-      <option name="number" value="LOCAL‎00059" />
-      <option name="presentableId" value="LOCAL‎00059" />
-      <updated>1647807054951</updated>
-    </task>
-    <task id="LOCAL‎00060" summary="Final">
-      <created>1647807095890</created>
-      <option name="number" value="LOCAL‎00060" />
-      <option name="presentableId" value="LOCAL‎00060" />
-      <updated>1647807095890</updated>
-    </task>
-    <task id="LOCAL‎00061" summary="Final">
-      <created>1647807248317</created>
-      <option name="number" value="LOCAL‎00061" />
-      <option name="presentableId" value="LOCAL‎00061" />
-      <updated>1647807248317</updated>
-    </task>
-    <task id="LOCAL‎00062" summary="Final">
-      <created>1647807288384</created>
-      <option name="number" value="LOCAL‎00062" />
-      <option name="presentableId" value="LOCAL‎00062" />
-      <updated>1647807288384</updated>
-    </task>
-    <task id="LOCAL‎00063" summary="Final">
-      <created>1647807304187</created>
-      <option name="number" value="LOCAL‎00063" />
-      <option name="presentableId" value="LOCAL‎00063" />
-      <updated>1647807304187</updated>
-    </task>
-    <task id="LOCAL‎00064" summary="Final">
-      <created>1647807329403</created>
-      <option name="number" value="LOCAL‎00064" />
-      <option name="presentableId" value="LOCAL‎00064" />
-      <updated>1647807329403</updated>
-    </task>
-    <task id="LOCAL‎00065" summary="Final">
-      <created>1647809521567</created>
-      <option name="number" value="LOCAL‎00065" />
-      <option name="presentableId" value="LOCAL‎00065" />
-      <updated>1647809521567</updated>
-    </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,10 +629,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Week5/hackathon1" />
     </ignored-roots>
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />
@@ -638,7 +645,7 @@
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPVaccines.coverage" NAME="MPVaccines Coverage Results" MODIFIED="1645914214482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPNinja__1_.coverage" NAME="XPNinja (1) Coverage Results" MODIFIED="1643885387044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$game.coverage" NAME="game Coverage Results" MODIFIED="1645302347418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8/Day5/MPRockPaperScissors" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$app.coverage" NAME="app Coverage Results" MODIFIED="1647806457096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$app.coverage" NAME="app Coverage Results" MODIFIED="1647468942215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$enrich.coverage" NAME="enrich Coverage Results" MODIFIED="1646592652288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$anagram_checker.coverage" NAME="anagram_checker Coverage Results" MODIFIED="1646593248043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPTicTacToe.coverage" NAME="MPTicTacToe Coverage Results" MODIFIED="1644523599974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
@@ -658,7 +665,6 @@
     <SUITE FILE_PATH="coverage/DI_Bootcamp$Daily_Challenge.coverage" NAME="Daily Challenge Coverage Results" MODIFIED="1645298507631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XP_2.coverage" NAME="XP#2 Coverage Results" MODIFIED="1646409041300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day2" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPGold.coverage" NAME="XPGold Coverage Results" MODIFIED="1644950024039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$products_data__1_.coverage" NAME="products_data (1) Coverage Results" MODIFIED="1647540452973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge__1_.coverage" NAME="DailyChallenge (1) Coverage Results" MODIFIED="1646935727552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day4/DailyChallengeColors" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPShoppingCartSite.coverage" NAME="MPShoppingCartSite Coverage Results" MODIFIED="1647467504922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XP.coverage" NAME="XP Coverage Results" MODIFIED="1646761941702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day2" />
