@@ -2,8 +2,9 @@
 
 {% block main %}
     <h2 class="text-primary m-3">Create CV:</h2>
-    <form action="{{ url_for('assist', form=form) }}" method="post" class="form-control ms-3 fs-5 w-25">
-        {{ form.csrf_token }}
+    <form method="POST" class="form-control ms-3 fs-5 w-25">
+        {{ form.hidden_tag() }}
+
         {{ form.first_name(class="mb-2 mt-2", placeholder="First Name") }}
         {{ form.last_name(class="mb-2 mt-2", placeholder="Last Name") }}
         {{ form.hobbies(class="mb-2 mt-2", placeholder="Hobbies") }}

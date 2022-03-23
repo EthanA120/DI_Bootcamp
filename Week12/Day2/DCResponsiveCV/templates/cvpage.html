@@ -2,9 +2,9 @@
 
 {% block main %}
     <h1 class="text-center">Your CV:</h1>
-    <h2 class="mt-2 mb-2">Your name: {{ user_name }}</h2>
-    <h2 class="mb-2">Your Hobbies: {{ user_details['hobbies'] }}</h2>
-    <h2 class="mb-2">Your Skills: {{ user_details['skills'] }}</h2>
-    <h2 class="mb-2">Your Strengths: {{ user_details['strengths'] }}</h2>
-    <h2 class="mb-2">Your Weaknesses: {{ user_details['weaknesses'] }}</h2>
+    <h2 class="mt-2 mb-2">Your name:&nbsp;{{ user_details['first'] }}&nbsp;{{ user_details['last'] }}</h2>
+    <h2 class="mb-2">Your Hobbies:&nbsp;{{ user_details['hobbies'] }}</h2>
+    <h2 class="mb-2">Your Skills:&nbsp;{{ user_details['skills'] }}</h2>
+    <h2 class="mb-2">Your Strengths:&nbsp;{{ user_details['strengths'] }}</h2>
+    <h2 class="mb-2">Your Weaknesses:&nbsp;{{ user_details['weaknesses'] }}</h2>
 {% endblock %}
