@@ -1,13 +1,23 @@
-import random
-import string
 from app import app
-from flask import render_template
+from random import choice
+from app.forms import AddCity
+from string import ascii_letters
+from flask import render_template, redirect
 
-characters = string.ascii_letters + string.digits + string.punctuation
-rnd_pass = ''.join(random.choice(characters) for i in range(8))
-print("Random password is:", rnd_pass)
+app.config["SECRET_KEY"] = ''.join(choice(ascii_letters) for i in range(256))
+print("Random password is:", app.config["SECRET_KEY"])
 
 
-@app.route("/")
-def layout():
-    return render_template('index.html', posts=posts)
+@app.route("/", methods=["GET", "POST"])
+def index():
+    form = AddCity()
+
+    if form.validate_on_submit():
+        name = form.name.data
+        country = form.country.data
+        inhabitants = form.inhabitants.data
+        area = form.area.data
+        print(name, country, inhabitants, area)
+        return redirect("/")
+
+    return render_template('index.html', title="Home", form=form)
