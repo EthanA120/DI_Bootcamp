@@ -17,9 +17,9 @@
             <node kind="database">
               <name qname="public" />
               <name qname="bootcamp" />
+              <name qname="users" />
               <node kind="schema" qname="public" />
             </node>
-            <node kind="database" qname="users" />
           </node>
         </introspection-scope>
       </schema-mapping>

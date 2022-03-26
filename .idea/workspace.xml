@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP+/Bootcamp.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP+/Instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day3/Actors.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,6 +26,7 @@
         <option value="CSS File" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="SQL File" />
       </list>
     </option>
   </component>
@@ -317,13 +315,7 @@
       <workItem from="1648137621025" duration="5403000" />
       <workItem from="1648151940680" duration="2526000" />
       <workItem from="1648198535997" duration="737000" />
-      <workItem from="1648314332137" duration="10330000" />
-    </task>
-    <task id="LOCAL‎00025" summary="Final">
-      <created>1645809328406</created>
-      <option name="number" value="LOCAL‎00025" />
-      <option name="presentableId" value="LOCAL‎00025" />
-      <updated>1645809328406</updated>
+      <workItem from="1648314332137" duration="11481000" />
     </task>
     <task id="LOCAL‎00026" summary="Final">
       <created>1645817664593</created>
@@ -613,7 +605,13 @@
       <option name="presentableId" value="LOCAL‎00073" />
       <updated>1648326493102</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL‎00074" summary="Final">
+      <created>1648330042081</created>
+      <option name="number" value="LOCAL‎00074" />
+      <option name="presentableId" value="LOCAL‎00074" />
+      <updated>1648330042081</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,8 +649,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Week5/hackathon1" />
     </ignored-roots>
-    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
+    <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
