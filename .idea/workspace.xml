@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/Week12/Day2/XP/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP/assets/instructions.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week12/Day2/XP/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week12/Day2/XP/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week12/Day2/XP/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week12/Day2/XP/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week12/Day2/XP/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week12/Day2/XP/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week12/Day2/XP/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week12/Day2/XP/app/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +75,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunConfigurationTargetLRU" value="e2f83901-10cb-4cc7-8ea3-6fed3c498bde" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week12/Day2/XP/app/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week12/Day3/XP" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -102,21 +103,27 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\XP\app\templates" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\DCResponsiveCV" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\MPShoppingCartSite\templates" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\MPShoppingCartSite " />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP\assets" />
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\Website\app" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\DailyChallenge" />
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\MPShoppingCartSite\static" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\DCPokemonInterface\static" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\DCPokemonInterface" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.routes">
+  <component name="RunManager" selected="Database Script.ItemsAndCustomers.sql">
+    <configuration name="ItemsAndCustomers.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Week12/Day3/XP/ItemsAndCustomers.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="e2f83901-10cb-4cc7-8ea3-6fed3c498bde" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,28 +212,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV/forms.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="responsive_cv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -273,18 +258,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.forms" />
       <item itemvalue="Python.responsive_cv (1)" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.routes" />
+      <item itemvalue="Database Script.ItemsAndCustomers.sql" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.ItemsAndCustomers.sql" />
         <item itemvalue="Python.routes" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.responsive_cv (1)" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.forms" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +328,9 @@
       <workItem from="1647792202258" duration="13226000" />
       <workItem from="1648053467441" duration="5679000" />
       <workItem from="1648137621025" duration="5403000" />
-      <workItem from="1648151940680" duration="1677000" />
+      <workItem from="1648151940680" duration="2526000" />
+      <workItem from="1648198535997" duration="737000" />
+      <workItem from="1648314332137" duration="6586000" />
     </task>
     <task id="LOCAL‎00023" summary="Final">
       <created>1645390763338</created>
