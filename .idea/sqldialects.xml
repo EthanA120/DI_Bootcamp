@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/Week12/Day3/Actors.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Week12/Day3/DailyChallenge.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Week12/Day3/XP+/Bootcamp.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Week12/Day3/XP/ItemsAndCustomers.sql" dialect="GenericSQL" />
   </component>
