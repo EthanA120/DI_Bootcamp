@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP/assets/instructions.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP+/Bootcamp.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day3/XP+/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,8 +84,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="PostgreSQL" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week12/Day3/XP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week12/Day3/XP+" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -103,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP+" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\XP\app\templates" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\DCResponsiveCV" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\MPShoppingCartSite\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP\assets" />
@@ -117,7 +121,12 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\MPShoppingCartSite\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.ItemsAndCustomers.sql">
+  <component name="RunManager" selected="Database Script.Bootcamp.sql">
+    <configuration name="Bootcamp.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Week12/Day3/XP+/Bootcamp.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="ItemsAndCustomers.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/Week12/Day3/XP/ItemsAndCustomers.sql" />
       <script-mode>FILE</script-mode>
@@ -160,28 +169,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,19 +244,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.responsive_cv (1)" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.routes" />
       <item itemvalue="Database Script.ItemsAndCustomers.sql" />
+      <item itemvalue="Database Script.Bootcamp.sql" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.Bootcamp.sql" />
         <item itemvalue="Database Script.ItemsAndCustomers.sql" />
         <item itemvalue="Python.routes" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.responsive_cv (1)" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -330,19 +317,7 @@
       <workItem from="1648137621025" duration="5403000" />
       <workItem from="1648151940680" duration="2526000" />
       <workItem from="1648198535997" duration="737000" />
-      <workItem from="1648314332137" duration="6586000" />
-    </task>
-    <task id="LOCAL‎00023" summary="Final">
-      <created>1645390763338</created>
-      <option name="number" value="LOCAL‎00023" />
-      <option name="presentableId" value="LOCAL‎00023" />
-      <updated>1645390763338</updated>
-    </task>
-    <task id="LOCAL‎00024" summary="Final">
-      <created>1645562497978</created>
-      <option name="number" value="LOCAL‎00024" />
-      <option name="presentableId" value="LOCAL‎00024" />
-      <updated>1645562497978</updated>
+      <workItem from="1648314332137" duration="10330000" />
     </task>
     <task id="LOCAL‎00025" summary="Final">
       <created>1645809328406</created>
@@ -626,7 +601,19 @@
       <option name="presentableId" value="LOCAL‎00071" />
       <updated>1648068595888</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL‎00072" summary="Final">
+      <created>1648326442214</created>
+      <option name="number" value="LOCAL‎00072" />
+      <option name="presentableId" value="LOCAL‎00072" />
+      <updated>1648326442215</updated>
+    </task>
+    <task id="LOCAL‎00073" summary="Final">
+      <created>1648326493102</created>
+      <option name="number" value="LOCAL‎00073" />
+      <option name="presentableId" value="LOCAL‎00073" />
+      <updated>1648326493102</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,9 +652,9 @@
       <path value="$PROJECT_DIR$/Week5/hackathon1" />
     </ignored-roots>
     <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
