@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/ItemsAndCustomers/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/ItemsAndCustomers/ItemsAndCustomers.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +30,8 @@
       <list>
         <option value="CSS File" />
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="SQL File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -107,11 +117,11 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day5\XP\ItemsAndCustomers" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP\assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\Website\app" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\DailyChallenge" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week11\Day5\MPShoppingCartSite\static" />
     </key>
   </component>
   <component name="RunManager" selected="Database Script.Bootcamp.sql">
@@ -237,11 +247,12 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Database Script.ItemsAndCustomers.sql" />
+      <item itemvalue="Database Script.Bootcamp.sql" />
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.responsive_cv (1)" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.routes" />
-      <item itemvalue="Database Script.ItemsAndCustomers.sql" />
-      <item itemvalue="Database Script.Bootcamp.sql" />
     </list>
     <recent_temporary>
       <list>
@@ -310,13 +321,8 @@
       <workItem from="1648137621025" duration="5403000" />
       <workItem from="1648151940680" duration="2526000" />
       <workItem from="1648198535997" duration="737000" />
-      <workItem from="1648314332137" duration="11929000" />
-    </task>
-    <task id="LOCAL‎00027" summary="Final">
-      <created>1645914464590</created>
-      <option name="number" value="LOCAL‎00027" />
-      <option name="presentableId" value="LOCAL‎00027" />
-      <updated>1645914464590</updated>
+      <workItem from="1648314332137" duration="12345000" />
+      <workItem from="1648393130072" duration="5748000" />
     </task>
     <task id="LOCAL‎00028" summary="In progress...">
       <created>1645914781540</created>
@@ -606,7 +612,13 @@
       <option name="presentableId" value="LOCAL‎00075" />
       <updated>1648331358333</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL‎00076" summary="Final">
+      <created>1648331688828</created>
+      <option name="number" value="LOCAL‎00076" />
+      <option name="presentableId" value="LOCAL‎00076" />
+      <updated>1648331688829</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
