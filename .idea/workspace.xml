@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/ItemsAndCustomers/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/ItemsAndCustomers/ItemsAndCustomers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/Instructions.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/Instructions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +84,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week12/Day3/XP+" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -110,18 +104,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day5\XP\DVDRentalDatabase" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP+" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\XP\app\templates" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\DCResponsiveCV" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day5\XP\DVDRentalDatabase" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day5\XP\ItemsAndCustomers" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP\assets" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\Website\app" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\DailyChallenge" />
     </key>
   </component>
   <component name="RunManager" selected="Database Script.Bootcamp.sql">
@@ -322,13 +316,7 @@
       <workItem from="1648151940680" duration="2526000" />
       <workItem from="1648198535997" duration="737000" />
       <workItem from="1648314332137" duration="12345000" />
-      <workItem from="1648393130072" duration="5748000" />
-    </task>
-    <task id="LOCAL‎00028" summary="In progress...">
-      <created>1645914781540</created>
-      <option name="number" value="LOCAL‎00028" />
-      <option name="presentableId" value="LOCAL‎00028" />
-      <updated>1645914781540</updated>
+      <workItem from="1648393130072" duration="6703000" />
     </task>
     <task id="LOCAL‎00029" summary="In progress...">
       <created>1646080575755</created>
@@ -618,7 +606,13 @@
       <option name="presentableId" value="LOCAL‎00076" />
       <updated>1648331688829</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL‎00077" summary="Final">
+      <created>1648413311166</created>
+      <option name="number" value="LOCAL‎00077" />
+      <option name="presentableId" value="LOCAL‎00077" />
+      <updated>1648413311167</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
