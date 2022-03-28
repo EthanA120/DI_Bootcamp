@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
-      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/Instructions.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/Instructions.md" afterDir="false" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="In progress...">
+      <change afterPath="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/DVDRental.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +30,8 @@
       <list>
         <option value="CSS File" />
         <option value="Python Script" />
-        <option value="SQL File" />
         <option value="HTML File" />
+        <option value="SQL File" />
       </list>
     </option>
   </component>
@@ -118,7 +124,7 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day2\Website\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.Bootcamp.sql">
+  <component name="RunManager" selected="Database Script.restore.sql">
     <configuration name="Bootcamp.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/Week12/Day3/XP+/Bootcamp.sql" />
       <script-mode>FILE</script-mode>
@@ -128,6 +134,11 @@
       <script-file value="$PROJECT_DIR$/Week12/Day3/XP/ItemsAndCustomers.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="e2f83901-10cb-4cc7-8ea3-6fed3c498bde" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restore.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/dvdrental/restore.sql" />
+      <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -174,50 +185,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\VSCode\DI_Bootcamp\Week12\Day2\DCResponsiveCV\app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="responsive_cv (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV/responsive_cv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="routes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,18 +210,17 @@
     <list>
       <item itemvalue="Database Script.ItemsAndCustomers.sql" />
       <item itemvalue="Database Script.Bootcamp.sql" />
-      <item itemvalue="Python.app" />
-      <item itemvalue="Python.responsive_cv (1)" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.routes" />
+      <item itemvalue="Database Script.restore.sql" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.restore.sql" />
         <item itemvalue="Database Script.Bootcamp.sql" />
         <item itemvalue="Database Script.ItemsAndCustomers.sql" />
         <item itemvalue="Python.routes" />
         <item itemvalue="Python.app (1)" />
-        <item itemvalue="Python.responsive_cv (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -316,13 +282,8 @@
       <workItem from="1648151940680" duration="2526000" />
       <workItem from="1648198535997" duration="737000" />
       <workItem from="1648314332137" duration="12345000" />
-      <workItem from="1648393130072" duration="6703000" />
-    </task>
-    <task id="LOCAL‎00029" summary="In progress...">
-      <created>1646080575755</created>
-      <option name="number" value="LOCAL‎00029" />
-      <option name="presentableId" value="LOCAL‎00029" />
-      <updated>1646080575755</updated>
+      <workItem from="1648393130072" duration="6810000" />
+      <workItem from="1648480999284" duration="10026000" />
     </task>
     <task id="LOCAL‎00030" summary="In progress...">
       <created>1646171795109</created>
@@ -612,7 +573,13 @@
       <option name="presentableId" value="LOCAL‎00077" />
       <updated>1648413311167</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL‎00078" summary="In progress...">
+      <created>1648414199168</created>
+      <option name="number" value="LOCAL‎00078" />
+      <option name="presentableId" value="LOCAL‎00078" />
+      <updated>1648414199168</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,12 +617,12 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/Week5/hackathon1" />
     </ignored-roots>
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />

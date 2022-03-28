@@ -15,10 +15,13 @@
               <node kind="schema" qname="@" />
             </node>
             <node kind="database">
-              <name qname="public" />
               <name qname="bootcamp" />
+              <name qname="public" />
               <name qname="users" />
               <node kind="schema" qname="public" />
+            </node>
+            <node kind="database" qname="dvdrental">
+              <node kind="schema" negative="1" />
             </node>
           </node>
         </introspection-scope>
