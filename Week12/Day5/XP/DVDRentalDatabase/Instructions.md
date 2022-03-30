@@ -1,7 +1,7 @@
 Exercise 2 : dvdrental database Instructions Setup
 
-1. We will install a [new sample database]("http://www.postgresqltutorial.com/") on our PostgreSQL servers.</br>
-Download this [sample database file]("http://www.postgresqltutorial.com/postgresql-sample-database/")
+1. We will install a [new sample database](http://www.postgresqltutorial.com/) on our PostgreSQL servers.</br>
+Download this [sample database file](http://www.postgresqltutorial.com/postgresql-sample-database/)
 
 2. There is a single file called dvdrental.tar inside the zip. Extract it to your local directory. Tip : If you are
    using Mac, after extracting the zip file you will get a folder called dvdrental
@@ -32,7 +32,7 @@ Download this [sample database file]("http://www.postgresqltutorial.com/postgres
     check Show hidden files and folders?), and click the Select button.
 
 
-11. If you receive a “Utility not found” Error, you need to change pgadmin binary path. Check out [this video]("https://www.youtube.com/watch?v=7cBkXKCY4Ew")
+11. If you receive a “Utility not found” Error, you need to change pgadmin binary path. Check out [this video](https://www.youtube.com/watch?v=7cBkXKCY4Ew)
 
 
 12. If you see any error messages, please save them and get assistance. If not, you should have a new database loaded
@@ -43,7 +43,7 @@ Download this [sample database file]("http://www.postgresqltutorial.com/postgres
     relationships between the different tables.
 
 
-If you have a problem importing the database, here are the [DEFAULT instructions]("https://www.postgresqltutorial.com/load-postgresql-sample-database/")
+If you have a problem importing the database, here are the [DEFAULT instructions](https://www.postgresqltutorial.com/load-postgresql-sample-database/)
 
 ![instructions](Instructions.bmp)
 
