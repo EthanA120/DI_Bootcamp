@@ -39,11 +39,11 @@ Useful Resources
        - zipcode : a String
 
     2. Use Flask Migrate to add this new table to the database
-        Create the migration repository by running this command in the terminal: _flask db init_.
-        After you run this command, you will find a new migrations directory.
-        To generate automatic migrations, run this command in the terminal _flask db migrate -m "user table"_
-        To apply the changes to the database, run this command in the terminal _flask db upgrade_.
-        The _upgrade_ command will detect that a database does not exist and will create it.
+        Create the migration repository by running this command in the terminal: _flask db init_.<br>
+        After you run this command, you will find a new migrations directory.<br>
+        To generate automatic migrations, run this command in the terminal _flask db migrate -m "user table"_.<br>
+        To apply the changes to the database, run this command in the terminal _flask db upgrade_.<br>
+        The _upgrade_ command will detect that a database does not exist and will create it.<br>
 
 5. In the __init__.py file:
    1. Create a function named populate(), that will populate the User table with the user’s data from the json file. (Be careful, only populate the columns with the fields : name, address street, address city, address zipcode)
