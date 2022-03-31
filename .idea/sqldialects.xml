@@ -7,5 +7,7 @@
     <file url="file://$PROJECT_DIR$/Week12/Day5/XP/DCSQLPuzzle/SQLPuzzle.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Week12/Day5/XP/DVDRentalDatabase/dvdrental/restore.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Week12/Day5/XP/ItemsAndCustomers/ItemsAndCustomers.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Week13/Day2/MPUsers/app/__init__.py" dialect="GenericSQL" />
+    <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>
