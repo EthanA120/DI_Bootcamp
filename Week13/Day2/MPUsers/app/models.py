@@ -11,14 +11,34 @@ class User(db.Model):
     zipcode = db.Column(db.String(35))
 
 
-def populate():
+def populate(clause=1):
+    User.query.delete()
     with open(r"app\static\Users.json", "r") as read_file:
         json_users = json.load(read_file)
 
+    lim = None
     for user in json_users:
         if not db.session.query(exists().where(User.name == user['name'])).scalar():
-            db.session.add(User(name=user['name'], street=user['address']['street'], city=user['address']['city'],
-                                zipcode=user['address']['zipcode']))
+            user_row = User(name=user['name'],
+                            street=user['address']['street'],
+                            city=user['address']['city'],
+                            zipcode=user['address']['zipcode'])
+            match clause:
+                case 1:
+                    db.session.add(user_row)
+
+                case 2:
+                    if user['address']['city'] == "Roscoeview":
+                        db.session.add(user_row)
+
+                case 3:
+                    db.session.add(user_row)
+                    lim = 5
+
+                case 4:
+                    if user['address']['zipcode'][0] == "5":
+                        db.session.add(user_row)
+
     db.session.commit()
 
-    return User.query.all()
+    return User.query.limit(lim).all()

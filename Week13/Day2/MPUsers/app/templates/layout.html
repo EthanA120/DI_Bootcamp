@@ -18,7 +18,10 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link {% if request.url_rule.endpoint == "/" %}active{% endif %}" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                            <a class="nav-link {% if request.url.split('/')[-1] in ["", "1"] %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index', clause=1) }}">Home</a>
+                        <a class="nav-link {% if request.url.split('/')[-1] == "2" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index', clause=2) }}">Roscoeview</a>
+                        <a class="nav-link {% if request.url.split('/')[-1] == "3" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index', clause=3) }}">First 5 users</a>
+                        <a class="nav-link {% if request.url.split('/')[-1] == "4" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index', clause=4) }}">Zipcode starts with 5</a>
                         </div>
                     </div>
                 </div>
