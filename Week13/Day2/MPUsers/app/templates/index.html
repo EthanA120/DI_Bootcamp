@@ -2,8 +2,20 @@
 
 {% block main %}
     {% for user in users %}
-        <div>
-        <p>user.name</p>
+        <div class="ms-2 card mb-1">
+            <h4 class="p-2 card-title">{{ user["name"].title() }}</h4>
+            <div class="card-body p-2 pt-0">
+                <table class="table table-sm table-borderless w-50" style="line-height: 15px">
+                    <tr>
+                        <th class="w-25">Name:</th>
+                        <td class="w-75">{{ user["name"] }}</td>
+                    </tr>
+                    <tr>
+                        <th class="w-25">Address:</th>
+                        <td class="w-75">{{ user["street"] }}, {{ user["city"] }}, {{ user["zipcode"] }}</td>
+                    </tr>
+                </table>
+            </div>
         </div>
     {% endfor %}
 {% endblock %}
