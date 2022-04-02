@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/static/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/robots.db" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/robots.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day2/MPUsers/app/templates/layout.html" afterDir="false" />
@@ -31,8 +41,8 @@
         <option value="CSS File" />
         <option value="Markdown File" />
         <option value="SQL File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -91,7 +101,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week13/Day2/MPUsers/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week13/Day2/MPUsers/app/templates" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -111,11 +121,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers\app\templates" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers\app" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2" />
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day5\XP\DVDRentalDatabase" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week12\Day3\XP+" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers\app\static" />
@@ -125,7 +135,7 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week12\Day5\XP\DVDRentalDatabase" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wsgi">
+  <component name="RunManager" selected="Python.test">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,28 +172,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DI_Bootcamp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week11/Day5/MPShoppingCartSite/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,6 +224,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DI_Bootcamp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\VSCode\DI_Bootcamp\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,16 +272,16 @@
       <item itemvalue="Python.wsgi" />
       <item itemvalue="Python.__init__" />
       <item itemvalue="Python.models" />
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.routes" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.wsgi" />
-        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.routes" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.models" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -339,13 +349,8 @@
       <workItem from="1648586873078" duration="1641000" />
       <workItem from="1648660309662" duration="8406000" />
       <workItem from="1648760320253" duration="1593000" />
-      <workItem from="1648804017981" duration="15585000" />
-    </task>
-    <task id="LOCAL‎00034" summary="Final">
-      <created>1646409307975</created>
-      <option name="number" value="LOCAL‎00034" />
-      <option name="presentableId" value="LOCAL‎00034" />
-      <updated>1646409307975</updated>
+      <workItem from="1648804017981" duration="16121000" />
+      <workItem from="1648926812231" duration="8668000" />
     </task>
     <task id="LOCAL‎00035" summary="Final">
       <created>1646515515055</created>
@@ -635,7 +640,13 @@
       <option name="presentableId" value="LOCAL‎00082" />
       <updated>1648814592164</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL‎00083" summary="Final">
+      <created>1648823372085</created>
+      <option name="number" value="LOCAL‎00083" />
+      <option name="presentableId" value="LOCAL‎00083" />
+      <updated>1648823372085</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,8 +687,8 @@
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
+    <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
@@ -697,15 +708,15 @@
     <SUITE FILE_PATH="coverage/DI_Bootcamp$enrich.coverage" NAME="enrich Coverage Results" MODIFIED="1646592652288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$anagram_checker.coverage" NAME="anagram_checker Coverage Results" MODIFIED="1646593248043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week10/Day5/MPAnagramChecker" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPTicTacToe.coverage" NAME="MPTicTacToe Coverage Results" MODIFIED="1644523599974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$routes.coverage" NAME="routes Coverage Results" MODIFIED="1648821891705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day2/MPUsers/app" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$routes.coverage" NAME="routes Coverage Results" MODIFIED="1648935411951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day2/MPUsers/app" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$test_.coverage" NAME="test  Coverage Results" MODIFIED="1643626658381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$Test.coverage" NAME="Test Coverage Results" MODIFIED="1648588176432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$test.coverage" NAME="test Coverage Results" MODIFIED="1645816714525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week9/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$models.coverage" NAME="models Coverage Results" MODIFIED="1648812813116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day2/MPUsers/app" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$test.coverage" NAME="test Coverage Results" MODIFIED="1648935479650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$DailyChallenge.coverage" NAME="DailyChallenge Coverage Results" MODIFIED="1646692385230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11/Day2" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPNinja.coverage" NAME="XPNinja Coverage Results" MODIFIED="1644952912938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCReverseTheSentence.coverage" NAME="TCReverseTheSentence Coverage Results" MODIFIED="1644109568261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day6" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1648822601727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day2/MPUsers" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1648935482154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day2/MPUsers" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$XPGold__1_.coverage" NAME="XPGold (1) Coverage Results" MODIFIED="1643814397271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day4" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$main.coverage" NAME="main Coverage Results" MODIFIED="1646601624071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week11" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1648068503351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week12/Day2/DCResponsiveCV" />
