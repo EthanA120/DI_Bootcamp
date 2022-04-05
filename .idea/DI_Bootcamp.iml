@@ -28,6 +28,8 @@
         <option value="$MODULE_DIR$/Week12/Day2/DCResponsiveCV/templates" />
         <option value="$MODULE_DIR$/Week13/Day2/MPUsers/app/templates" />
         <option value="$MODULE_DIR$/Week13/Day2/MPUsers/app/static" />
+        <option value="$MODULE_DIR$/Week13/Day4/MPPetStore/app/static" />
+        <option value="$MODULE_DIR$/Week13/Day4/MPPetStore/app/templates" />
       </list>
     </option>
   </component>
