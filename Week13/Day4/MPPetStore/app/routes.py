@@ -14,6 +14,11 @@ def pets():
     return render_template('pets.html', title="Pets")
 
 
+@app.route("/pet/<int:pet_id>")
+def pet(pet_id):
+    return render_template('pet.html', title="Pet")
+
+
 @app.route("/cart")
 def cart():
     return render_template('cart.html', title="Cart")

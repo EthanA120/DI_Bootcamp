@@ -1,7 +1,10 @@
+import random
 from datetime import datetime, date
 from app import db
 from sqlalchemy import exists
-
+from json import load
+from faker import Faker
+fake = Faker()
 
 class Pet(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -15,24 +18,20 @@ class Pet(db.Model):
 
 
 def first_pets():
-    if not db.session.query(exists().where(Pet.name in ['Tiger', 'Nalla'])).scalar():
-        db.session.add(Pet(
-            name="Tiger",
-            gender="M",
-            breed="Dog",
-            date_of_birth=date(2021, 10, 12),
-            details="Good dog with spicy personality",
-            price=500,
-            image="https://c.wallhere.com/photos/3b/95/puppies_Corgi_dog_animals-2088671.jpg!d")
-        )
+    with open("static/pets_json.json", "r") as read_file:
+        jpets = load(read_file)
 
-        db.session.add(Pet(
-            name="Nalla",
-            gender="F",
-            breed="Cat",
-            date_of_birth=date(2022, 3, 22),
-            details="Naughty cat but scares from his own shadow",
-            price=450,
-            image="https://c.wallhere.com/photos/37/1e/1920x1200_px_autumn_cuddly_cute_grass_Kitten_leaves-1904563.jpg!d")
-        )
+    for jpet in jpets:
+        start_date = date(year=2007, month=1, day=1)
+        if not db.session.query(exists().where(Pet.name == jpet['Name'], Pet.breed == jpet['BreedName'])).scalar():
+            db.session.add(Pet(
+                name=jpet['Name'],
+                gender=jpet['Gender'],
+                breed=jpet['BreedName'],
+                date_of_birth=fake.date_between(start_date=start_date, end_date='+15y'),
+                details=jpet['Story'],
+                price=random.randint(10, 1000),
+                image=jpet['PrimaryPhotoUrl'])
+            )
+
     db.session.commit()
