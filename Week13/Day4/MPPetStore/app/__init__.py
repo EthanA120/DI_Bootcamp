@@ -2,7 +2,6 @@ from flask import Flask
 from app.config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-import enrich
 
 app = Flask(__name__)
 

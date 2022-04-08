@@ -43,11 +43,6 @@
     "ZipCode": "19103"
   },
   {
-    "PetId": [
-      "PetId is invalid."
-    ]
-  },
-  {
     "ActivityLevel": "average",
     "AdditionalPhotoUrls": null,
     "AdoptionDeadline": "2017-08-20T03:59:59Z",
@@ -124,16 +119,6 @@
     "VideoContentType": "video/quicktime",
     "VideoUrl": "https://getyourpet.com/photos/f278713d-b4a1-4ad6-8880-1170c688c92d/video-4-d018e59f-9770-4e2c-917a-264630f14db2.MOV",
     "ZipCode": "19103"
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
   },
   {
     "ActivityLevel": "high",
@@ -661,11 +646,6 @@
     "VideoContentType": null,
     "VideoUrl": null,
     "ZipCode": "08825"
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
   },
   {
     "ActivityLevel": "low",
@@ -1704,11 +1684,6 @@
     "ZipCode": "19120"
   },
   {
-    "PetId": [
-      "PetId is invalid."
-    ]
-  },
-  {
     "ActivityLevel": "average",
     "AdditionalPhotoUrls": [
       "https://getyourpet.com/photos/39dd4cee-c4cd-4054-b0f9-4de33794f3c8/pet-photo-93.png",
@@ -1751,11 +1726,6 @@
     "VideoContentType": null,
     "VideoUrl": null,
     "ZipCode": "19146"
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
   },
   {
     "ActivityLevel": "average",
@@ -2093,11 +2063,6 @@
     "ZipCode": "08302"
   },
   {
-    "PetId": [
-      "PetId is invalid."
-    ]
-  },
-  {
     "ActivityLevel": "high",
     "AdditionalPhotoUrls": null,
     "AdoptionDeadline": "2016-12-28T04:59:59Z",
@@ -2173,11 +2138,6 @@
     "VideoContentType": null,
     "VideoUrl": null,
     "ZipCode": "19140"
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
   },
   {
     "ActivityLevel": "average",
@@ -2392,16 +2352,6 @@
     "VideoContentType": null,
     "VideoUrl": null,
     "ZipCode": "08081"
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
   },
   {
     "ActivityLevel": "high",
@@ -3002,11 +2952,6 @@
     "ZipCode": "18104"
   },
   {
-    "PetId": [
-      "PetId is invalid."
-    ]
-  },
-  {
     "ActivityLevel": "average",
     "AdditionalPhotoUrls": null,
     "AdoptionDeadline": "2017-01-01T04:59:59Z",
@@ -3197,11 +3142,6 @@
     "VideoContentType": null,
     "VideoUrl": null,
     "ZipCode": "19380"
-  },
-  {
-    "PetId": [
-      "PetId is invalid."
-    ]
   },
   {
     "ActivityLevel": "average",

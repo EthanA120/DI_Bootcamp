@@ -25,11 +25,22 @@ nav a:hover{
 }
 
 main{
-    height: 95vh;
-    width: 60vw;
+    min-height: 95vh;
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 500px;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px 5px;
+}
+
+.card{
+    width: 19%;
+    margin: 1%;
+    padding: 15px;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 #Login, #Register{
@@ -141,14 +152,13 @@ footer{
     float: left;
     width: 100%;
     min-height: 20px;
-    background-color: #8ad4f6;
     border-top: 1px solid black;
 }
 
-footer p{
-    margin: 0;
-    font-size: 1.2em;
+footer, footer ul{
+    background-color: #8ad4f6;
 }
+
 
 @media all and (max-width: 1000px){
     main{width: 100vw;}

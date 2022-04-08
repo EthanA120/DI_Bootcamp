@@ -1,10 +1,10 @@
 import random
 from datetime import datetime, date
 from app import db
-from sqlalchemy import exists
 from json import load
 from faker import Faker
 fake = Faker()
+
 
 class Pet(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
@@ -18,19 +18,20 @@ class Pet(db.Model):
 
 
 def first_pets():
-    with open("static/pets_json.json", "r") as read_file:
+    # db.session.query(Pet).delete()
+    with open("app/static/pets_json.json", "r") as read_file:
         jpets = load(read_file)
 
     for jpet in jpets:
         start_date = date(year=2007, month=1, day=1)
-        if not db.session.query(exists().where(Pet.name == jpet['Name'], Pet.breed == jpet['BreedName'])).scalar():
+        if db.session.query(Pet).filter_by(name=jpet['Name']).count() == 0:
             db.session.add(Pet(
                 name=jpet['Name'],
                 gender=jpet['Gender'],
-                breed=jpet['BreedName'],
+                breed=jpet['BreedsForDisplay'],
                 date_of_birth=fake.date_between(start_date=start_date, end_date='+15y'),
                 details=jpet['Story'],
-                price=random.randint(10, 1000),
+                price=round(random.randint(50, 500), -1),
                 image=jpet['PrimaryPhotoUrl'])
             )
 
