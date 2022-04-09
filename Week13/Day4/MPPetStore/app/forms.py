@@ -1,9 +1,7 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired, ValidationError
+from wtforms import SubmitField
 
 
-class Login(FlaskForm):
-    name = StringField('Name', validators=[DataRequired()])
-    city = StringField('City', validators=[DataRequired()])
-    submit = SubmitField('Login')
+class CartItems(FlaskForm):
+    add_to_cart = SubmitField('Add to cart')
+    remove_from_cart = SubmitField('Remove From Cart')

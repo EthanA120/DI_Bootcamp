@@ -1,8 +1,11 @@
 import random
-from datetime import datetime, date
+
 from app import db
 from json import load
 from faker import Faker
+from sqlalchemy import func
+from datetime import datetime, date
+
 fake = Faker()
 
 
@@ -15,6 +18,23 @@ class Pet(db.Model):
     details = db.Column(db.TEXT(70))
     price = db.Column(db.Integer())
     image = db.Column(db.String(200))
+    cart = db.relationship('Cart', backref='pet')
+
+
+class Cart(db.Model):
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    pet_id = db.Column(db.Integer(), db.ForeignKey('pet.id'), unique=True)
+
+    def add_to_cart(self):
+        db.session.add(self)
+        db.session.commit()
+
+    @classmethod
+    def get_cart(cls):
+        return db.session.query(cls).all()
+
+    def get_total(self):
+        return db.session.query(func.sum(Pet.price)).filter(Pet.id == Cart.pet_id).all()[0][0]
 
 
 def first_pets():
@@ -36,3 +56,6 @@ def first_pets():
             )
 
     db.session.commit()
+
+
+db.create_all()

@@ -1,5 +1,45 @@
 {% extends "layout.html" %}
 
 {% block main %}
+    {% for pet in cart_list %}
+        <div class="w-75 h-25 card">
+            <div class="row card-body">
+                <img src="{{ pet.pet.image }}" class="w-25" alt="...">
+                <table class="w-50 ms-5 table table-sm table-borderless lh-base" style="line-height: 15px">
+                    <tr>
+                        <th class="w-25">Name:</th>
+                        <td class="w-75">{{ pet.pet.name }}</td>
+                    </tr>
+                    <tr>
+                        <th class="w-25">Gender:</th>
+                        <td class="w-75">{{ pet.pet.gender }}</td>
+                    </tr>
+                    <tr>
+                        <th class="w-25">Date Of Birth:</th>
+                        <td class="w-75">{{ pet.pet.date_of_birth }}</td>
+                    </tr>
+                    <tr>
+                        <th class="w-25">Breed:</th>
+                        <td class="w-75">{{ pet.pet.breed }}</td>
+                    </tr>
+                    <tr>
+                        <th class="w-25">Details:</th>
+                        <td class="w-75">{{ pet.pet.details }}</td>
+                    </tr>
+                    <tr>
+                        <th class="w-25">Price:</th>
+                        <td class="w-75">${{ pet.pet.price }}</td>
+                    </tr>
+                </table>
+                <form method="POST" action="{{ url_for('remove_pet', pet_id=pet.pet.id) }}"
+                      class="text-center container ps-0 ms-0 gap-3">
+                    {{ form.hidden_tag() }}
 
+                    <a class="btn btn-primary" href="/pet/{{ pet.pet.id }}">Details</a>
+                    {{ form.remove_from_cart(class="btn btn-danger") }}
+                </form>
+            </div>
+        </div>
+    {% endfor %}
+    <h2 class="h-25 border border-2 border-primary rounded p-2">Total Value: ${{ total }}</h2>
 {% endblock %}

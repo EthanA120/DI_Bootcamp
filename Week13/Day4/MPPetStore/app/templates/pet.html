@@ -31,6 +31,11 @@
                     <td class="w-75">${{ pet_detail.price }}</td>
                 </tr>
             </table>
+
+            <form method="POST" action="" class="container ps-0 ms-0 gap-3">
+                {{ form.hidden_tag() }}
+                {{ form.add_to_cart(class="btn btn-primary") }}
+            </form>
         </div>
     </div>
 {% endblock %}

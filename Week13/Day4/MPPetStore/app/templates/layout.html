@@ -30,7 +30,7 @@
             </nav>
         </header>
 
-        <main>
+        <div class="w-75 m-auto">
             {% with messages = get_flashed_messages(with_categories=true) %}
                 {% if messages %}
                     {% for category, message in messages %}
@@ -38,8 +38,11 @@
                             {{ message }}
                         </div>
                     {% endfor %}
-                {% endif %} 
+                {% endif %}
             {% endwith %}
+        </div>
+
+        <main>
             {% block main %} {% endblock %}
         </main>
 
