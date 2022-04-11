@@ -5,7 +5,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Week12/Day2/XP" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day2/MPUsers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day4/MPPetStore" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1/test" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -30,6 +33,7 @@
         <option value="$MODULE_DIR$/Week13/Day2/MPUsers/app/static" />
         <option value="$MODULE_DIR$/Week13/Day4/MPPetStore/app/static" />
         <option value="$MODULE_DIR$/Week13/Day4/MPPetStore/app/templates" />
+        <option value="$MODULE_DIR$/Week13/Day4/test/app/templates" />
       </list>
     </option>
   </component>
