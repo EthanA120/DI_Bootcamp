@@ -5,12 +5,12 @@
     <title>{% block title %}{% endblock %}</title>
 
     {% block styles %}
+        <link rel="shortcut icon" href="#">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/styles.css') }}">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         {{ bootstrap.load_css() }}
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/css/intlTelInput.css">
     {% endblock %}
 </head>
 
@@ -19,7 +19,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">Pets4U</a>
+                    <a class="navbar-brand" href="/">Phone</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
