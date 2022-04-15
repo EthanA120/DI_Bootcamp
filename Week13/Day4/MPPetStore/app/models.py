@@ -23,7 +23,7 @@ class Pet(db.Model):
 
 class Cart(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    pet_id = db.Column(db.Integer(), db.ForeignKey('pet.id'), unique=True)
+    pet_id = db.Column(db.Integer(), db.ForeignKey('pet.id'))
 
     def add_to_cart(self):
         db.session.add(self)

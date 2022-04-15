@@ -26,11 +26,15 @@
                 autoPlaceholder: 'aggressive',
                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/js/utils.min.js",
             });
-            let ext = document.querySelector(".iti__selected-flag .iti__selected-dial-code").textContent
-            console.log(wtf_phone_field.value);
-            document.getElementById('submit').addEventListener("click", () => {
-                wtf_phone_field.value = `${ext}-${wtf_phone_field.value}`
+            document.querySelector(".iti__flag-container").addEventListener("click", () => {
+            ext = document.querySelector('.iti__country[aria-selected="true"]').getAttribute("data-dial-code")
+            console.log(ext);
             });
+            if(wtf_phone_field.value.length !== 0){
+                document.getElementById('submit').addEventListener("click", () => {
+                    wtf_phone_field.value = `+${ext}-${wtf_phone_field.value}`
+                });
+            }
         </script>
     {% endblock %}
 {% endblock %}

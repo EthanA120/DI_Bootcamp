@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="In progress...">
-      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/phone.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/migrations/script.py.mako" afterDir="false" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Color Scheme - Ethan Amar">
+      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/owner_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/owner_name.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/.idea/DCPhoneNumberP1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/.idea/DCPhoneNumberP1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/phone.db" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/phone.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/show_phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/show_phone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day4/MPPetStore/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/MPPetStore/app/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +102,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -140,7 +136,7 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers\app\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.wsgi (1)">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DI_Bootcamp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,8 +278,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.wsgi (1)" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.get_ api_ to_json" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.wsgi" />
@@ -366,19 +362,12 @@
       <workItem from="1649608305146" duration="1726000" />
       <workItem from="1649691585443" duration="6613000" />
       <workItem from="1649775295323" duration="896000" />
-      <workItem from="1649866652258" duration="5639000" />
-    </task>
-    <task id="LOCAL‎00044" summary="Final">
-      <created>1646692725920</created>
-      <option name="number" value="LOCAL‎00044" />
-      <option name="presentableId" value="LOCAL‎00044" />
-      <updated>1646692725920</updated>
-    </task>
-    <task id="LOCAL‎00045" summary="Final">
-      <created>1646761975208</created>
-      <option name="number" value="LOCAL‎00045" />
-      <option name="presentableId" value="LOCAL‎00045" />
-      <updated>1646761975208</updated>
+      <workItem from="1649866652258" duration="6461000" />
+      <workItem from="1649959381656" duration="3563000" />
+      <workItem from="1649970408586" duration="1037000" />
+      <workItem from="1650035960814" duration="74000" />
+      <workItem from="1650036753066" duration="614000" />
+      <workItem from="1650038658040" duration="2000" />
     </task>
     <task id="LOCAL‎00046" summary="Final">
       <created>1646858062379</created>
@@ -662,7 +651,19 @@
       <option name="presentableId" value="LOCAL‎00092" />
       <updated>1649799846076</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL‎00093" summary="In progress...">
+      <created>1649878164129</created>
+      <option name="number" value="LOCAL‎00093" />
+      <option name="presentableId" value="LOCAL‎00093" />
+      <updated>1649878164130</updated>
+    </task>
+    <task id="LOCAL‎00094" summary="Color Scheme - Ethan Amar">
+      <created>1650036023788</created>
+      <option name="number" value="LOCAL‎00094" />
+      <option name="presentableId" value="LOCAL‎00094" />
+      <updated>1650036023789</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +709,8 @@
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
-    <option name="LAST_COMMIT_MESSAGE" value="In progress..." />
+    <MESSAGE value="Color Scheme - Ethan Amar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color Scheme - Ethan Amar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />
@@ -742,7 +744,7 @@
     <SUITE FILE_PATH="coverage/DI_Bootcamp$Challenges2.coverage" NAME="Challenges2 Coverage Results" MODIFIED="1644528091683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$MPHangman.coverage" NAME="MPHangman Coverage Results" MODIFIED="1644534273018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day5" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$Doctests_in_XPGold.coverage" NAME="Doctests in XPGold Coverage Results" MODIFIED="1643627797674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week6/Day2" />
-    <SUITE FILE_PATH="coverage/DI_Bootcamp$wsgi__1_.coverage" NAME="wsgi (1) Coverage Results" MODIFIED="1649700144999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day4/MPPetStore" />
+    <SUITE FILE_PATH="coverage/DI_Bootcamp$wsgi__1_.coverage" NAME="wsgi (1) Coverage Results" MODIFIED="1649971376004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day4/MPPetStore" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1649273393117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week13/Day4/MPPetStore/app" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$rock_paper_scissors.coverage" NAME="rock-paper-scissors Coverage Results" MODIFIED="1645306073715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week8/Day5/MPRockPaperScissors" />
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence.coverage" NAME="TCCountOccurence Coverage Results" MODIFIED="1644311354493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day2" />

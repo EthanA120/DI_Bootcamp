@@ -1,6 +1,6 @@
 import phonenumbers
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, TelField
+from wtforms import SubmitField, TelField
 from wtforms.validators import DataRequired, ValidationError
 
 
