@@ -7,13 +7,23 @@
 
 {% block main %}
     <form class="form-control h-25" method="Post">
-        {{ form.hidden_tag() }}
+        {{ phone_form.hidden_tag() }}
 
         <div class="form-group mb-2">
-            <label for="phone">Phone:</label>
-            {{ form.phone() }}
+            <label for="phone">Phone: </label>
+            {{ phone_form.phone() }}
         </div>
-        {{ form.submit(class="btn btn-primary") }}
+        {{ phone_form.submit(class="btn btn-primary") }}
+    </form>
+
+    <form class="form-control h-25 mt-2" method="Post">
+        {{ name_form.hidden_tag() }}
+
+        <div class="form-group mb-2">
+            <label for="name">Name: </label>
+            {{ name_form.name() }}
+        </div>
+        {{ name_form.name_submit(class="btn btn-success") }}
     </form>
 
     {% block scripts %}
@@ -23,18 +33,16 @@
             let fancy_phone_iti = window.intlTelInput(wtf_phone_field, {
                 separateDialCode: true,
                 initialCountry: 'il',
-                autoPlaceholder: 'aggressive',
                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.16/js/utils.min.js",
             });
-            document.querySelector(".iti__flag-container").addEventListener("click", () => {
-            ext = document.querySelector('.iti__country[aria-selected="true"]').getAttribute("data-dial-code")
-            console.log(ext);
-            });
-            if(wtf_phone_field.value.length !== 0){
-                document.getElementById('submit').addEventListener("click", () => {
+
+            document.getElementById('submit').addEventListener("click", () => {
+                let ext = document.querySelector('.iti__country[aria-selected="true"]').getAttribute("data-dial-code")
+                if (wtf_phone_field.value.length > 0) {
                     wtf_phone_field.value = `+${ext}-${wtf_phone_field.value}`
-                });
-            }
+                    console.log(`+${ext}-${wtf_phone_field.value}`);
+                }
+            });
         </script>
     {% endblock %}
 {% endblock %}

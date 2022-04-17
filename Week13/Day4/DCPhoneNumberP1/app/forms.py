@@ -1,6 +1,6 @@
 import phonenumbers
 from flask_wtf import FlaskForm
-from wtforms import SubmitField, TelField
+from wtforms import SubmitField, TelField, StringField
 from wtforms.validators import DataRequired, ValidationError
 
 
@@ -16,3 +16,8 @@ class PhoneForm(FlaskForm):
                 raise ValueError()
         except (phonenumbers.phonenumberutil.NumberParseException, ValueError):
             raise ValidationError('Invalid phone number')
+
+
+class NameForm(FlaskForm):
+    name = StringField('Name', validators=[DataRequired()])
+    name_submit = SubmitField('Submit')

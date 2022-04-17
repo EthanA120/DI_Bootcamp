@@ -1,6 +1,7 @@
 from app import db
 from faker import Faker
-from random import randint, choices
+from random import choices
+from sqlalchemy import func
 
 
 class Person(db.Model):
@@ -22,6 +23,7 @@ def initial_values(amount=10):
     if db.session.query(Person).count() < amount and db.session.query(PhoneNumber).count() < amount:
         amount -= db.session.query(Person).count()
         fake = Faker()
+        fake_phone = Faker('he-IL')
 
         for num in range(amount):
             full_name = fake.unique.name()
@@ -36,10 +38,11 @@ def initial_values(amount=10):
                 continue
 
             for count in range(choices([1, 2, 3], weights=[10, 4, 1], k=1)[0]):
-                phone_number = fake.unique.phone_number()
+                phone_number = fake_phone.unique.phone_number().replace("-", "").replace(" ", "")
                 if db.session.query(PhoneNumber).filter_by(number=phone_number).count() == 0:
                     db.session.add(PhoneNumber(number=phone_number, person=owner))
                 else:
                     count -= count
 
         db.session.commit()
+

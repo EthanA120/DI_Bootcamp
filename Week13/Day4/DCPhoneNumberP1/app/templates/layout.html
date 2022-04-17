@@ -27,7 +27,6 @@
                         <div class="navbar-nav">
                             {% set endpoint = request.url.split('/') %}
                             <a class="nav-link {% if endpoint[-1] == "" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index') }}">Home</a>
-                            <a class="nav-link {% if endpoint[-1] == "showphone" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('show_phone') }}">Phone</a>
                         </div>
                     </div>
                 </div>

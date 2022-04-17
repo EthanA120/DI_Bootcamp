@@ -2,5 +2,24 @@
 {% block title %}Owner by Name{% endblock %}
 
 {% block main %}
-
+    <div class="h-25 container border border-secondary rounded p-2">
+        <table class="table table-sm table-borderless fs-5 h-50" style="line-height: 25px">
+            <tr>
+                <th class="w-25">Name:</th>
+                <td class="w-75">{{ owner.name }}</td>
+            </tr>
+            <tr>
+                <th class="w-25">Email:</th>
+                <td class="w-75">{{ owner.email }}</td>
+            </tr>
+            <tr>
+                <th class="w-25">Address:</th>
+                <td class="w-75">{{ owner.address }}</td>
+            </tr>
+            <tr>
+                <th class="w-25">Phone:</th>
+                <td class="w-75">{{ phone_number }}</td>
+            </tr>
+        </table>
+    </div>
 {% endblock %}

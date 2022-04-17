@@ -2,8 +2,25 @@
 {% block title %}Phone{% endblock %}
 
 {% block main %}
-    <div class="container text-center">
-    <p>The number that you entered is: <b>{{ phone }}</b>.</p>
-    <a href="{{ url_for('index') }}" class="btn btn-primary">Enter another!</a>
+    <div class="m-2 container text-center border border-primary rounded p-2 w-50 h-25">
+        <p>The number that you entered is: <b>{{ full_phone }}</b>.</p>
+        <a href="{{ url_for('index') }}" class="btn btn-primary">Enter another!</a>
+    </div>
+
+    <div class="h-25 container border border-secondary rounded p-2">
+        <table class="table table-sm table-borderless fs-5 h-50" style="line-height: 25px">
+            <tr>
+                <th class="w-25">Name:</th>
+                <td class="w-75">{{ owner.name }}</td>
+            </tr>
+            <tr>
+                <th class="w-25">Email:</th>
+                <td class="w-75">{{ owner.email }}</td>
+            </tr>
+            <tr>
+                <th class="w-25">Address:</th>
+                <td class="w-75">{{ owner.address }}</td>
+            </tr>
+        </table>
     </div>
 {% endblock %}
