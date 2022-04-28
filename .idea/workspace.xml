@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Color Scheme - Ethan Amar">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_04_2022_01_10_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_04_2022_01_10__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_04_2022_01_11_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_04_2022_01_11__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/ToDoList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/Example.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/Instructions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/schedule.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2a35dd9-6b01-44dd-a127-12232b23fdf4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d2a35dd9-6b01-44dd-a127-12232b23fdf4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/phone.db" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/phone.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/owner_info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/owner_name.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/owner_name.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/show_phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day4/DCPhoneNumberP1/app/templates/show_phone.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/" value="PostgreSQL" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Change SQL Dialect" value="PostgreSQL" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week13/Day5/ToDoList" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -129,11 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week13\Day5\ToDoList" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\DCPhoneNumberP1\app" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\DCPhoneNumberP1" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\MPPetStore\app" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\MPPetStore" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\DCPhoneNumberP1" />
@@ -376,6 +377,9 @@
       <workItem from="1650036753066" duration="614000" />
       <workItem from="1650038658040" duration="2000" />
       <workItem from="1650198281861" duration="1715000" />
+      <workItem from="1650203400702" duration="609000" />
+      <workItem from="1650812712476" duration="1328000" />
+      <workItem from="1651072559938" duration="8494000" />
     </task>
     <task id="LOCAL‎00046" summary="Final">
       <created>1646858062379</created>

@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+{% block styles %}
+    {{ super() }}
+{% endblock %}
+
+{% block main %}
+    <h1>To-Do List</h1>
+    <form method="post">
+        {{ form.hidden_tag() }}
+
+        {{ form.task(type='text', placeholder='New Task') }}
+        {{ form.submit(id_='AddButton', value="Add") }}
+<!--        <input id="AddButton" type="button" value="Add">-->
+    </form>
+
+
+    <div class="listTasks">
+        {% for task in tasks %}
+            <div id="A{{ task.id }}" class="A{{ task.id }} toDoItem">
+            <i class="A{{ task.id }} fas fa-times" onclick="window.location.href='{{ url_for('remove', task_id=task.id) }}';" ></i>
+                <label for="A{{ task.id }}">
+                    <input name="done" type="checkbox" class="A{{ task.id }}" {% if task.completed == True %}checked{% endif %} onclick="window.location.href='{{ url_for('task_done', task_id=task.id) }}';">
+                    <span class="A{{ task.id }} {% if task.completed == True %}done{% endif %}">{{ task.details }}</span>
+                </label>
+            </div>
+            <hr>
+        {% endfor %}
+
+        <form id="ClearForm" method="post">
+            {{ clear_form.hidden_tag() }}
+
+            {{ clear_form.clear(id_="Clear", value="Clear") }}
+        </form>
+    </div>
+{% endblock %}
