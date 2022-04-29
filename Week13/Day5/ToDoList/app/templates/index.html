@@ -10,15 +10,16 @@
         {{ form.hidden_tag() }}
 
         {{ form.task(type='text', placeholder='New Task') }}
+        {{ form.image(type='text', placeholder='Image URL') }}
         {{ form.submit(id_='AddButton', value="Add") }}
-<!--        <input id="AddButton" type="button" value="Add">-->
     </form>
 
-
+{% if tasks|length > 0 %}
     <div class="listTasks">
         {% for task in tasks %}
             <div id="A{{ task.id }}" class="A{{ task.id }} toDoItem">
-            <i class="A{{ task.id }} fas fa-times" onclick="window.location.href='{{ url_for('remove', task_id=task.id) }}';" ></i>
+                <img src="{{ task.image.url }}" alt="{{ task.id }}" width="100px">
+                <i class="A{{ task.id }} fas fa-times" onclick="window.location.href='{{ url_for('remove', task_id=task.id) }}';" ></i>
                 <label for="A{{ task.id }}">
                     <input name="done" type="checkbox" class="A{{ task.id }}" {% if task.completed == True %}checked{% endif %} onclick="window.location.href='{{ url_for('task_done', task_id=task.id) }}';">
                     <span class="A{{ task.id }} {% if task.completed == True %}done{% endif %}">{{ task.details }}</span>
@@ -33,4 +34,5 @@
             {{ clear_form.clear(id_="Clear", value="Clear") }}
         </form>
     </div>
+{% endif %}
 {% endblock %}

@@ -1,9 +1,10 @@
 from app import app
-from app.models import db, Todo
+from app.models import db, Todo, Image
 from app.forms import TaskForm, ClearForm
 from flask import render_template, redirect, url_for, session, request, flash
 
 db.create_all()
+db.session.commit()
 
 
 @app.route('/', methods=["POST", "GET"])
@@ -15,10 +16,11 @@ def index():
 
     if request.method == 'POST':
         if form.submit.data:
-            Todo(details=form.task.data).save_task_to_db()
+            Todo(details=form.task.data, image=Image(url=form.image.data)).save_task_to_db()
 
         if clear_form.clear.data:
             db.session.query(Todo).delete()
+            db.session.query(Image).delete()
             db.session.commit()
 
         return redirect(url_for('index'))
@@ -29,6 +31,7 @@ def index():
 @app.route('/remove/<task_id>', methods=["POST", "GET"])
 def remove(task_id):
     db.session.query(Todo).filter(Todo.id == task_id).delete()
+    db.session.query(Image).filter(Image.todo_id == task_id).delete()
     db.session.commit()
     return redirect(url_for('index'))
 

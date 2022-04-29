@@ -5,6 +5,7 @@ from wtforms.validators import DataRequired
 
 class TaskForm(FlaskForm):
     task = StringField('NewTask', validators=[DataRequired()])
+    image = StringField('Image', validators=[DataRequired()])
     submit = SubmitField('AddButton')
 
 

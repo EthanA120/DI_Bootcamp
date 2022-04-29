@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Color Scheme - Ethan Amar">
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/ToDoList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/Example.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/Instructions.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/schedule.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/wsgi.py" afterDir="false" />
+    <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="Final">
+      <change afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/Example2.bmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DI_Bootcamp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d2a35dd9-6b01-44dd-a127-12232b23fdf4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d2a35dd9-6b01-44dd-a127-12232b23fdf4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/schedule.db" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/schedule.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week13/Day5/ToDoList/app/templates/layout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +59,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -116,7 +108,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -137,11 +129,11 @@
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\MPPetStore" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\VSCode\DI_Bootcamp\Week13\Day5\ToDoList" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\DCPhoneNumberP1" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\MPPetStore\app" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\MPPetStore" />
       <recent name="D:\VSCode\DI_Bootcamp\Week13\Day4\MPPetStore\app\static" />
-      <recent name="D:\VSCode\DI_Bootcamp\Week13\Day2\MPUsers\app\static" />
     </key>
   </component>
   <component name="RunManager" selected="Python.wsgi (1)">
@@ -380,24 +372,7 @@
       <workItem from="1650203400702" duration="609000" />
       <workItem from="1650812712476" duration="1328000" />
       <workItem from="1651072559938" duration="8494000" />
-    </task>
-    <task id="LOCAL‎00046" summary="Final">
-      <created>1646858062379</created>
-      <option name="number" value="LOCAL‎00046" />
-      <option name="presentableId" value="LOCAL‎00046" />
-      <updated>1646858062379</updated>
-    </task>
-    <task id="LOCAL‎00047" summary="In progress...">
-      <created>1646859261267</created>
-      <option name="number" value="LOCAL‎00047" />
-      <option name="presentableId" value="LOCAL‎00047" />
-      <updated>1646859261267</updated>
-    </task>
-    <task id="LOCAL‎00048" summary="Final">
-      <created>1646996175881</created>
-      <option name="number" value="LOCAL‎00048" />
-      <option name="presentableId" value="LOCAL‎00048" />
-      <updated>1646996175881</updated>
+      <workItem from="1651213937936" duration="4534000" />
     </task>
     <task id="LOCAL‎00049" summary="In progress...">
       <created>1647130331072</created>
@@ -675,7 +650,25 @@
       <option name="presentableId" value="LOCAL‎00094" />
       <updated>1650036023789</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL‎00095" summary="Final">
+      <created>1651168247224</created>
+      <option name="number" value="LOCAL‎00095" />
+      <option name="presentableId" value="LOCAL‎00095" />
+      <updated>1651168247224</updated>
+    </task>
+    <task id="LOCAL‎00096" summary="Final">
+      <created>1651168295928</created>
+      <option name="number" value="LOCAL‎00096" />
+      <option name="presentableId" value="LOCAL‎00096" />
+      <updated>1651168295928</updated>
+    </task>
+    <task id="LOCAL‎00097" summary="Final">
+      <created>1651168383989</created>
+      <option name="number" value="LOCAL‎00097" />
+      <option name="presentableId" value="LOCAL‎00097" />
+      <updated>1651168383989</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -717,12 +710,12 @@
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
     <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
-    <MESSAGE value="Final" />
     <MESSAGE value="In progress..." />
     <MESSAGE value="Color Scheme - Ethan Amar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color Scheme - Ethan Amar" />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DI_Bootcamp$TCCountOccurence__1_.coverage" NAME="TCCountOccurence (1) Coverage Results" MODIFIED="1644311359891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week7/Day4" />
