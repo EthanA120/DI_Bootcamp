@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day4/MPPetStore" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day5/ToDoList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DIFinalProject" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Week13/Day5/ToDoList/venv" />
@@ -36,6 +37,8 @@
         <option value="$MODULE_DIR$/Week13/Day4/MPPetStore/app/templates" />
         <option value="$MODULE_DIR$/Week13/Day5/ToDoList/app/static" />
         <option value="$MODULE_DIR$/Week13/Day5/ToDoList/app/templates" />
+        <option value="$MODULE_DIR$/DIFinalProject/app/static" />
+        <option value="$MODULE_DIR$/DIFinalProject/app/templates" />
       </list>
     </option>
   </component>
