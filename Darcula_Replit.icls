@@ -1,10 +1,10 @@
 <scheme name="Darcula Replit" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2022-04-15T18:18:05</property>
+    <property name="created">2022-07-08T09:04:32</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2021.3.1.0.0</property>
-    <property name="modified">2022-04-15T18:19:10</property>
+    <property name="modified">2022-07-08T09:04:56</property>
     <property name="originalScheme">Darcula Replit</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -237,6 +237,7 @@
         <option name="FOREGROUND" value="ba57ff" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
