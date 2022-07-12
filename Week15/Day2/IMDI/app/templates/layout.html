@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+
+    {% block styles %}
+        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='../static/LoremLogo.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/styles.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    {% endblock %}
+        {{ bootstrap.load_css() }}
+</head>
+
+<body>
+    <div id="Page" class="container-fluid p-0">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/"><img src="{{ url_for('static', filename='../static/assets/FlaskLogo.png') }}" alt="FlaskPage" height="35px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            {% set endpoint = request.url.split('/') %}
+                            <a class="nav-link {% if endpoint[-1] == "" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                        </div>
+                        <div class="navbar-nav">
+                            {% if current_user.is_anonymous %}
+                                <a class="nav-link {% if endpoint[-1] == "login" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('login') }}">Login</a>
+                                <a class="nav-link {% if endpoint[-1] == "register" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('register') }}">Register</a>
+
+                            {% else %}
+                                <div class="nav-item dropdown pe-5">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">{{ current_user.username }}</a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                      <li><a class="dropdown-item disabled" href="#">My Profile (Soon)</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="{{ url_for('logout') }}">Logout</a></li>
+                                    </ul>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div id="Alert" class="m-auto">
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
+        <main>
+            {% block main %}{% endblock %}
+        </main>
+
+        <footer>
+            <p>Ethan Amar - 2022</p>
+            {% block footer %}{% endblock %}
+        </footer>
+    </div>
+
+    {% block scripts %}
+        {{ bootstrap.load_js() }}
+    {% endblock %}
+</body>
+</html>
+
+{#Final#}
