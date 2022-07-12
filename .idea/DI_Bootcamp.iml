@@ -8,13 +8,15 @@
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day5/ToDoList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DIFinalProject" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week15/Day2/IMDI" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Week13/Day5/ToDoList/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.10 (venv)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.10 (DI_Bootcamp)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="font-awesome" level="application" />
     <orderEntry type="library" name="font-awesome" level="application" />
   </component>
   <component name="PyDocumentationSettings">
@@ -37,8 +39,8 @@
         <option value="$MODULE_DIR$/Week13/Day4/MPPetStore/app/templates" />
         <option value="$MODULE_DIR$/Week13/Day5/ToDoList/app/static" />
         <option value="$MODULE_DIR$/Week13/Day5/ToDoList/app/templates" />
-        <option value="$MODULE_DIR$/DIFinalProject/app/static" />
-        <option value="$MODULE_DIR$/DIFinalProject/app/templates" />
+        <option value="$MODULE_DIR$/Week15/Day2/IMDI/app/templates" />
+        <option value="$MODULE_DIR$/Week15/Day2/IMDI/app/static" />
       </list>
     </option>
   </component>
