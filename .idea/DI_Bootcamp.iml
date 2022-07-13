@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Week13/Day5/ToDoList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DIFinalProject" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week15/Day2/IMDI" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebsiteLayout" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Week13/Day4/DCPhoneNumberP1/venv" />
       <excludeFolder url="file://$MODULE_DIR$/Week13/Day5/ToDoList/venv" />
@@ -41,6 +42,8 @@
         <option value="$MODULE_DIR$/Week13/Day5/ToDoList/app/templates" />
         <option value="$MODULE_DIR$/Week15/Day2/IMDI/app/templates" />
         <option value="$MODULE_DIR$/Week15/Day2/IMDI/app/static" />
+        <option value="$MODULE_DIR$/WebsiteLayout/app/static" />
+        <option value="$MODULE_DIR$/WebsiteLayout/app/templates" />
       </list>
     </option>
   </component>
