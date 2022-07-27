@@ -5,61 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9289eb8-2834-4862-aacf-88d26f3d922c" name="Changes" comment="In progress...">
-      <change afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebsiteLayout/app/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebsiteLayout/app/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebsiteLayout/app/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebsiteLayout/app/users/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/users/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/users/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/users/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/bootcamp.c-wBeA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/dvdrental.tq3APg/schema/public.abK9xQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/public.abK9xQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e2f83901-10cb-4cc7-8ea3-6fed3c498bde/storage_v2/_src_/database/users.CI6mBg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/films/addDirector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/films/addFilm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/templates/loginRegister/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/templates/loginRegister/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/templates/loginRegister/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/templates/loginRegister/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebsiteLayout/app/users.db" beforeDir="false" afterPath="$PROJECT_DIR$/WebsiteLayout/app/users.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/films/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/loginRegister/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/loginRegister/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/loginRegister/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week15/Day2/IMDI/app/templates/loginRegister/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week15/Day2/IMDI/app/users.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +33,8 @@
         <option value="Markdown File" />
         <option value="SQL File" />
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -421,13 +374,8 @@
       <workItem from="1657654977169" duration="1060000" />
       <workItem from="1657657458868" duration="141000" />
       <workItem from="1657726701400" duration="3663000" />
-      <workItem from="1657867103145" duration="22009000" />
-    </task>
-    <task id="LOCAL‎00059" summary="Final">
-      <created>1647807054951</created>
-      <option name="number" value="LOCAL‎00059" />
-      <option name="presentableId" value="LOCAL‎00059" />
-      <updated>1647807054951</updated>
+      <workItem from="1657867103145" duration="22308000" />
+      <workItem from="1658848713802" duration="5259000" />
     </task>
     <task id="LOCAL‎00060" summary="Final">
       <created>1647807095890</created>
@@ -717,7 +665,13 @@
       <option name="presentableId" value="LOCAL‎00107" />
       <updated>1657740594210</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL‎00108" summary="In progress...">
+      <created>1657900750835</created>
+      <option name="number" value="LOCAL‎00108" />
+      <option name="presentableId" value="LOCAL‎00108" />
+      <updated>1657900750836</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
