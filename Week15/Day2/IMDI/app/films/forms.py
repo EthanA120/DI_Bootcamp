@@ -2,7 +2,10 @@ from flask_wtf import FlaskForm
 from country_list import countries_for_language
 from wtforms.validators import DataRequired
 from wtforms import SubmitField, StringField, DateField, SelectField
+from app.films.models import db, Film
 
+films = db.session.query(Film).all()
+print(films)
 countries = list(dict(countries_for_language('en')).values())
 
 
@@ -12,6 +15,7 @@ class AddFilmForm(FlaskForm):
     category = StringField('Category', validators=[DataRequired()])
     country = SelectField('Country', choices=countries, validators=[DataRequired()])
     director = StringField('Director', validators=[DataRequired()])
+    availability = StringField('Availability')
     submit = SubmitField('AddFilm')
 
 

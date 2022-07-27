@@ -30,6 +30,8 @@
                         <div class="navbar-nav">
                             {% set endpoint = request.url.split('/') %}
                             <a class="nav-link {% if endpoint[-1] == "" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                        <a class="nav-link {% if endpoint[-1] == "addFilm" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('films.add_film') }}">Add Film</a>
+                        <a class="nav-link {% if endpoint[-1] == "addDirector" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('films.add_director') }}">Add Director</a>
                         </div>
                         <div class="navbar-nav">
                             {% if current_user.is_anonymous %}
