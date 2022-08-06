@@ -30,6 +30,8 @@
                         <div class="navbar-nav">
                             {% set endpoint = request.url.split('/') %}
                             <a class="nav-link {% if endpoint[-1] == "" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                        <a class="nav-link {% if endpoint[-1] == "addFilm" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('films.add_film') }}">Add Film</a>
+                        <a class="nav-link {% if endpoint[-1] == "addDirector" %}active fw-bold{% endif %}" aria-current="page" href="{{ url_for('films.add_director') }}">Add Director</a>
                         </div>
                         <div class="navbar-nav">
                             {% if current_user.is_anonymous %}
@@ -38,7 +40,11 @@
 
                             {% else %}
                                 <div class="nav-item dropdown pe-5">
-                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">{{ current_user.username }}</a>
+                                    
+                                    <a class="nav-link dropdown-toggle d-flex align-items-center" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                                        <img src="{{ current_user.profile_pic }}" alt="" width="40" height="40" class="rounded-circle">
+                                        <p class="m-0 ms-1">{{ current_user.username }}</p>
+                                    </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                       <li><a class="dropdown-item disabled" href="#">My Profile (Soon)</a></li>
                                       <li><hr class="dropdown-divider"></li>

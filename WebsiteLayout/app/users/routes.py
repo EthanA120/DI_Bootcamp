@@ -1,12 +1,15 @@
+import requests
 from sqlalchemy import exc
 from app import login_mngr
-from app.users.forms import RegisterForm, LoginForm
 from app.users.models import db, User
+from app.users.forms import RegisterForm, LoginForm
 from flask import render_template, redirect, url_for, flash, Blueprint
 from werkzeug.security import check_password_hash, generate_password_hash
 from flask_login import current_user, login_user, login_required, logout_user
 
+
 users = Blueprint('users', __name__, url_prefix="/users", template_folder='templates', static_folder='static')
+
 @login_mngr.user_loader
 def load_user(userid):
     userid = int(userid)
@@ -50,6 +53,7 @@ def login():
 
     return render_template('loginRegister/login.html', form=form)
 
+import app.users.google
 
 @users.route('/logout')
 @login_required
