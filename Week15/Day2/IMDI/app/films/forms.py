@@ -15,7 +15,7 @@ class AddFilmForm(FlaskForm):
     category = StringField('Category', validators=[DataRequired()])
     country = SelectField('Country', choices=countries, validators=[DataRequired()])
     director = StringField('Director', validators=[DataRequired()])
-    availability = StringField('Availability')
+    availability = StringField('Availability', validators=[DataRequired()])
     submit = SubmitField('AddFilm')
 
 

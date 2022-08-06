@@ -25,6 +25,7 @@ def make_session_permanent():
 
 
 login_mngr = LoginManager(app)
+login_mngr.init_app(app)
 login_mngr.login_view = 'login'
 
 from app import routes
