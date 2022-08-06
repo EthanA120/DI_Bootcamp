@@ -1313,68 +1313,174 @@
     <argument id="481" parent="165">
       <Position>1</Position>
     </argument>
-    <table id="482" parent="166" name="sqlite_master">
+    <table id="482" parent="166" name="category"/>
+    <table id="483" parent="166" name="country"/>
+    <table id="484" parent="166" name="director"/>
+    <table id="485" parent="166" name="film"/>
+    <table id="486" parent="166" name="many_to_many"/>
+    <table id="487" parent="166" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="483" parent="166" name="user"/>
-    <column id="484" parent="482" name="type">
-      <DataType>TEXT|0s</DataType>
-      <Position>1</Position>
-    </column>
-    <column id="485" parent="482" name="name">
-      <DataType>TEXT|0s</DataType>
-      <Position>2</Position>
-    </column>
-    <column id="486" parent="482" name="tbl_name">
-      <DataType>TEXT|0s</DataType>
-      <Position>3</Position>
-    </column>
-    <column id="487" parent="482" name="rootpage">
-      <DataType>INT|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="488" parent="482" name="sql">
-      <DataType>TEXT|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="489" parent="483" name="id">
+    <table id="488" parent="166" name="user"/>
+    <column id="489" parent="482" name="id">
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="490" parent="483" name="username">
+    <column id="490" parent="482" name="name">
+      <DataType>VARCHAR(50)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <key id="491" parent="482">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="492" parent="483" name="id">
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="493" parent="483" name="name">
       <DataType>VARCHAR(20)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="491" parent="483" name="email">
+    <key id="494" parent="483">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="495" parent="484" name="id">
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="496" parent="484" name="name">
+      <DataType>VARCHAR(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <key id="497" parent="484">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="498" parent="485" name="id">
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="499" parent="485" name="title">
+      <DataType>VARCHAR(200)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="500" parent="485" name="release_date">
+      <DataType>DATETIME|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="501" parent="485" name="country_id">
+      <DataType>INTEGER|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="502" parent="485">
+      <ColNames>country_id</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>country</RefTableName>
+    </foreign-key>
+    <key id="503" parent="485">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="504" parent="486" name="film">
+      <DataType>INTEGER|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="505" parent="486" name="country">
+      <DataType>INTEGER|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="506" parent="486" name="category">
+      <DataType>INTEGER|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="507" parent="486" name="director">
+      <DataType>INTEGER|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="508" parent="486">
+      <ColNames>film</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>film</RefTableName>
+    </foreign-key>
+    <foreign-key id="509" parent="486">
+      <ColNames>country</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>country</RefTableName>
+    </foreign-key>
+    <foreign-key id="510" parent="486">
+      <ColNames>category</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>category</RefTableName>
+    </foreign-key>
+    <foreign-key id="511" parent="486">
+      <ColNames>director</ColNames>
+      <RefColNames>id</RefColNames>
+      <RefTableName>director</RefTableName>
+    </foreign-key>
+    <column id="512" parent="487" name="type">
+      <DataType>TEXT|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="513" parent="487" name="name">
+      <DataType>TEXT|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="514" parent="487" name="tbl_name">
+      <DataType>TEXT|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="515" parent="487" name="rootpage">
+      <DataType>INT|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="516" parent="487" name="sql">
+      <DataType>TEXT|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="517" parent="488" name="id">
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="518" parent="488" name="username">
+      <DataType>VARCHAR(20)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="519" parent="488" name="email">
       <DataType>VARCHAR(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="492" parent="483" name="password">
-      <DataType>VARCHAR(50)|0s</DataType>
+    <column id="520" parent="488" name="password">
+      <DataType>VARCHAR(250)|0s</DataType>
       <Position>4</Position>
     </column>
-    <index id="493" parent="483" name="sqlite_autoindex_user_1">
+    <index id="521" parent="488" name="sqlite_autoindex_user_1">
       <ColNames>username</ColNames>
       <ColumnCollations></ColumnCollations>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <index id="494" parent="483" name="sqlite_autoindex_user_2">
+    <index id="522" parent="488" name="sqlite_autoindex_user_2">
       <ColNames>email</ColNames>
       <ColumnCollations></ColumnCollations>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <key id="495" parent="483">
+    <key id="523" parent="488">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="496" parent="483">
+    <key id="524" parent="488">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>sqlite_autoindex_user_1</UnderlyingIndexName>
     </key>
-    <key id="497" parent="483">
+    <key id="525" parent="488">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>sqlite_autoindex_user_2</UnderlyingIndexName>
     </key>
